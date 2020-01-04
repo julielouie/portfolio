@@ -1,0 +1,9 @@
+.hero {
+  height: 75vh;
+  background-color: honeydew;
+}
+
+.brand {
+  position: relative;
+  top: 10%;
+}
