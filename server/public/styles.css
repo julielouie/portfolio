@@ -1,6 +1,11 @@
 .hero {
   height: 75vh;
-  background-color: honeydew;
+  width: 100vw;
+  background: url('/images/paw-trail.jpg');
+  border-bottom: 5px solid #f06c8b;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .brand {
