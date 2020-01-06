@@ -1,11 +1,6 @@
 .hero {
   height: 80vh;
-  width: 100vw;
-  background: url('/images/paw-prints.png');
-  border-bottom: 5px solid #f06c8b;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #f06c8b;
 }
 
 .brand {
