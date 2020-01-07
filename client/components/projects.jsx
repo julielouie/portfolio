@@ -5,7 +5,7 @@ class Projects extends React.Component {
   render() {
     return (
       <div className="projects container position-relative">
-        <div className="col-md-4 pb-5">
+        <div className="col-md-6 pb-5">
           <h1 className="">PROJECTS</h1>
           <h3 className="">Full Stack Developer</h3>
           <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolore culpa ratione quaerat deserunt vitae aspernatur numquam cumque tenetur error nihil, hic totam facere! Velit voluptatem corrupti quae labore iste.</p>
