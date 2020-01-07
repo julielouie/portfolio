@@ -33,9 +33,9 @@ html {
 }
 
 .apps:hover .project{
+  transform: scale(0.95);
   filter: blur(2px);
   opacity: 0.5;
-  transform: scale(0.95);
   box-shadow: none;
 }
 
@@ -59,14 +59,14 @@ html {
 }
 
 .spontaneously-img {
-  background-image: linear-gradient(rgba(128, 29, 128, 0.5), rgba(255, 192, 203, 0.5)), url('/images/spontaneously.jpg');
+  background-image: linear-gradient(rgba(71, 19, 71, 0.7), rgba(255, 192, 203, 0.5)), url('/images/spontaneously.jpg');
   background-position: 35% 76%;
 }
 
 .bobafy-img {
   background-image: url('/images/bobafy.png');
   background-size: cover;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .click {
