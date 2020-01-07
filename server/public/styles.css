@@ -24,6 +24,28 @@ html {
   width: 100vw;
 }
 
+.apps {
+  bottom: 5%;
+}
+
+.project {
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.apps:hover .project{
+  filter: blur(2px);
+  opacity: 0.5;
+  transform: scale(0.95);
+  box-shadow: none;
+}
+
+.apps:hover .project:hover{
+  transform: scale(1);
+  filter: blur(0px);
+  opacity: 1;
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
 .default-img {
   background-image: url('/images/project.jpg');
   background-size: cover;
@@ -37,18 +59,14 @@ html {
 }
 
 .spontaneously-img {
-  background-image: linear-gradient(rgba(128, 29, 128, 0.502), rgba(255, 192, 203, 0.502)), url('/images/spontaneously.jpg');
+  background-image: linear-gradient(rgba(128, 29, 128, 0.5), rgba(255, 192, 203, 0.5)), url('/images/spontaneously.jpg');
   background-position: 35% 76%;
 }
 
 .bobafy-img {
   background-image: url('/images/bobafy.png');
   background-size: cover;
-  opacity: 0.55;
-}
-
-.apps {
-  bottom: 5%;
+  opacity: 0.5;
 }
 
 .click {
