@@ -10,7 +10,7 @@ class ProjectList extends React.Component {
           title: 'Full Stack Developer',
           description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolore culpa ratione quaerat deserunt vitae aspernatur numquam cumque tenetur error nihil, hic totam facere! Velit voluptatem corrupti quae labore iste.',
           link: 'Github',
-          class: null
+          class: 'default-img project-img'
         },
         {
           title: 'BORKER',
@@ -41,18 +41,19 @@ class ProjectList extends React.Component {
   }
 
   render() {
+    const textColor = this.state.currentProject === 1 || this.state.currentProject === 2 ? 'text-white' : null;
     return (
       <div className="projects position-relative">
         <div className={`position-absolute ${this.state.projects[this.state.currentProject].class}`}></div>
         <div className="container">
           <div className="col-md-6 pb-5">
-            <h1>PROJECTS</h1>
+            <h1 className={`${textColor} py-5`}>PROJECTS</h1>
             <Project projects={this.state.projects} current={this.state.currentProject}/>
           </div>
           <div className="row">
             <div className="apps container d-flex flex-wrap justify-content-between position-absolute">
               <div className="col-md-3">
-                <div className="click card"
+                <div className="click project card"
                   onClick={() => this.handleClick(1)}>
                   <div className="card-body">
                     <h5 className="card-title text-center my-auto py-3">BORKER</h5>
@@ -60,7 +61,7 @@ class ProjectList extends React.Component {
                 </div>
               </div>
               <div className="col-md-3">
-                <div className="click card"
+                <div className="click project card"
                   onClick={() => this.handleClick(2)}>
                   <div className="card-body">
                     <h5 className="card-title text-center my-auto py-3">Spontaneous.ly</h5>
@@ -68,7 +69,7 @@ class ProjectList extends React.Component {
                 </div>
               </div>
               <div className="col-md-3">
-                <div className="click card"
+                <div className="click project card"
                   onClick={() => this.handleClick(3)}>
                   <div className="card-body">
                     <h5 className="card-title text-center my-auto py-3">Bobafy</h5>

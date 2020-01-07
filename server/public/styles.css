@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .hero {
   height: 80vh;
   background-color: #f06c8b;
@@ -15,26 +19,54 @@
 
 .project-img {
   z-index: -1;
-  background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
 }
 
+.apps {
+  bottom: 5%;
+}
+
+.project {
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.apps:hover .project{
+  transform: scale(0.95);
+  filter: blur(2px);
+  opacity: 0.5;
+  box-shadow: none;
+}
+
+.apps:hover .project:hover{
+  transform: scale(1);
+  filter: blur(0px);
+  opacity: 1;
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.default-img {
+  background-image: url('/images/project.jpg');
+  background-size: cover;
+  background-position: 0% 100%;
+}
+
 .borker-img {
-  background-image: url('/images/borker.jpg');
+  background-image: linear-gradient(to left, rgba(73, 46, 46, 0.3), rgba(36, 25, 23, 0.6)), url('/images/borker.jpg');
+  background-size: cover;
+  background-position: 0% 100%;
 }
 
 .spontaneously-img {
-  background-image: url('/images/spontaneously.jpg');
+  background-image: linear-gradient(rgba(71, 19, 71, 0.7), rgba(255, 192, 203, 0.5)), url('/images/spontaneously.jpg');
+  background-position: 35% 76%;
 }
 
 .bobafy-img {
   background-image: url('/images/bobafy.png');
-}
-
-.apps {
-  bottom: 5%;
+  background-size: cover;
+  opacity: 0.6;
 }
 
 .click {
