@@ -15,3 +15,7 @@
 .apps {
   bottom: 5%;
 }
+
+.click {
+  cursor: pointer;
+}
