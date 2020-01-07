@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .hero {
   height: 80vh;
   background-color: #f06c8b;
@@ -15,22 +19,32 @@
 
 .project-img {
   z-index: -1;
-  background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
 }
 
+.default-img {
+  background-image: url('/images/project.jpg');
+  background-size: cover;
+  background-position: 0% 100%;
+}
+
 .borker-img {
-  background-image: url('/images/borker.jpg');
+  background-image: linear-gradient(to left, rgba(73, 46, 46, 0.3), rgba(36, 25, 23, 0.6)), url('/images/borker.jpg');
+  background-size: cover;
+  background-position: 0% 100%;
 }
 
 .spontaneously-img {
-  background-image: url('/images/spontaneously.jpg');
+  background-image: linear-gradient(rgba(128, 29, 128, 0.502), rgba(255, 192, 203, 0.502)), url('/images/spontaneously.jpg');
+  background-position: 35% 76%;
 }
 
 .bobafy-img {
   background-image: url('/images/bobafy.png');
+  background-size: cover;
+  opacity: 0.55;
 }
 
 .apps {

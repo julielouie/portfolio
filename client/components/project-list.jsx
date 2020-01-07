@@ -10,7 +10,7 @@ class ProjectList extends React.Component {
           title: 'Full Stack Developer',
           description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolore culpa ratione quaerat deserunt vitae aspernatur numquam cumque tenetur error nihil, hic totam facere! Velit voluptatem corrupti quae labore iste.',
           link: 'Github',
-          class: null
+          class: 'default-img project-img'
         },
         {
           title: 'BORKER',
