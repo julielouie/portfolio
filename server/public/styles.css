@@ -7,3 +7,11 @@
   position: relative;
   top: 10%;
 }
+
+.projects {
+  height: 100vh;
+}
+
+.apps {
+  bottom: 5%;
+}
