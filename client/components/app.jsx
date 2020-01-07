@@ -1,7 +1,7 @@
 import React from 'react';
 import Hero from './hero';
 import AboutMe from './about-me';
-import Projects from './projects';
+import ProjectList from './project-list';
 
 class App extends React.Component {
   render() {
@@ -9,7 +9,7 @@ class App extends React.Component {
       <>
         <Hero />
         <AboutMe />
-        <Projects />
+        <ProjectList />
       </>
     );
   }

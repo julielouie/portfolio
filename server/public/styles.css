@@ -10,8 +10,33 @@
 
 .projects {
   height: 100vh;
+  width: 100vw;
+}
+
+.project-img {
+  z-index: -1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+.borker-img {
+  background-image: url('/images/borker.jpg');
+}
+
+.spontaneously-img {
+  background-image: url('/images/spontaneously.jpg');
+}
+
+.bobafy-img {
+  background-image: url('/images/bobafy.png');
 }
 
 .apps {
   bottom: 5%;
+}
+
+.click {
+  cursor: pointer;
 }
