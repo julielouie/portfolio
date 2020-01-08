@@ -2,7 +2,7 @@ import React from 'react';
 
 function AboutMe(props) {
   return (
-    <div className="about-me container py-5 my-5">
+    <div className="container py-5 my-5">
       <div className="d-flex flex-row">
         <div className="title col-md-6">
           <h4>About Me</h4>
@@ -20,20 +20,20 @@ function AboutMe(props) {
             My client-focused experience combined with the skills and knowledge I have acquired as a Developer would make me a great asset to your team.
             It would be an amazing opportunity to be able to bring my enthusiasm and dedication for programming to your company.
           </p>
-          <div className="info d-flex">
-            <div className="github mr-auto">
+          <div className="d-flex">
+            <div className="mr-auto">
               <i className="fab fa-github"></i>
             </div>
-            <div className="linkedin m-auto">
+            <div className="m-auto">
               <i className="fab fa-linkedin-in"></i>
             </div>
-            <div className="phone m-auto">
+            <div className="m-auto">
               <i className="fas fa-phone-alt"></i>
             </div>
-            <div className="email m-auto">
+            <div className="m-auto">
               <i className="fas fa-envelope"></i>
             </div>
-            <div className="resume m-auto">
+            <div className="m-auto">
               <i className="fas fa-file"></i>
             </div>
           </div>
