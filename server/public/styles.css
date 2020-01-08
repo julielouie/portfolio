@@ -13,14 +13,14 @@ html {
 }
 
 .projects {
-  height: 100vh;
+  height: 110vh;
   width: 100vw;
 }
 
 .project-img {
   z-index: -1;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 110vh;
   width: 100vw;
 }
 
