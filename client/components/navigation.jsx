@@ -3,20 +3,20 @@ import React from 'react';
 class Navigation extends React.Component {
   render() {
     return (
-      <div>
-        <div className="home">
+      <div className="sidenav position-fixed d-flex flex-column align-items-center">
+        <div className="navicon home m-4">
           <i className="fas fa-home"></i>
         </div>
-        <div className="about-me">
+        <div className="navicon about-me m-4">
           <i className="fas fa-user"></i>
         </div>
-        <div className="project-list">
+        <div className="navicon project-list m-4">
           <i className="fas fa-project-diagram"></i>
         </div>
-        <div className="contact">
+        <div className="navicon contact m-4">
           <i className="fas fa-address-book"></i>
         </div>
-        <div className="resume">
+        <div className="navicon resume m-4">
           <i className="fas fa-file"></i>
         </div>
       </div>

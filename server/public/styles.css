@@ -2,9 +2,17 @@ html {
   scroll-behavior: smooth;
 }
 
+.sidenav {
+  right: 0;
+}
+
+.navicon {
+  font-size: 1.5rem;
+}
+
 .hero {
   height: 80vh;
-  background-color: #f06c8b;
+  border-bottom: 5px solid black;
 }
 
 .brand {
