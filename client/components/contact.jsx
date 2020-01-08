@@ -5,29 +5,29 @@ function Contact(props) {
   const year = date.getFullYear();
   return (
     <div className="container pt-5">
-      <h3 className="text-center py-5">JULIE H. CHUNG</h3>
-      <div className="row pb-5">
-        <div className="location mx-auto">
+      <h3 className="text-center py-4">JULIE H. CHUNG</h3>
+      <div className="row pb-2 d-flex justify-content-center">
+        <div className="location mr-5">
           <i className="fas fa-map-marker-alt m-2"></i>
           Orange County/Los Angeles, CA
         </div>
-        <div className="phone mx-auto">
+        <div className="phone mr-5">
           <i className="fas fa-phone-alt m-2"></i>
           (909) 957-8113
         </div>
-        <div className="email mx-auto">
+        <div className="email mr-5">
           <i className="fas fa-envelope m-2"></i>
           juliehchung96@gmail.com
         </div>
       </div>
-      <div className="row connect pb-5">
-        <div className="github mx-auto">
+      <div className="row connect d-flex justify-content-center pb-4">
+        <div className="github m-3">
           <i className="fab fa-github"></i>
         </div>
-        <div className="linkedin mx-auto">
+        <div className="linkedin m-3">
           <i className="fab fa-linkedin-in"></i>
         </div>
-        <div className="resume mx-auto">
+        <div className="resume m-3">
           <i className="fas fa-file"></i>
         </div>
       </div>
