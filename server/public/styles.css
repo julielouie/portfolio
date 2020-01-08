@@ -2,8 +2,28 @@ html {
   scroll-behavior: smooth;
 }
 
-.home, .about-me, .project-list, .contact, .resume {
-  visibility: hidden;
+.navicon:hover {
+  font-size: 1rem;
+}
+
+.navicon:hover .home-icon:before {
+  content: "Home";
+}
+
+.navicon:hover .about-me-icon:before {
+  content: "About Me";
+}
+
+.navicon:hover .project-list-icon:before {
+  content: "Projects";
+}
+
+.navicon:hover .contact-icon:before {
+  content: "Contact";
+}
+
+.navicon:hover .resume-icon:before {
+  content: "Resume";
 }
 
 .sidenav {
