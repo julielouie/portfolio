@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.home, .about-me, .project-list, .contact, .resume {
+  visibility: hidden;
+}
+
 .sidenav {
   right: 0;
 }
