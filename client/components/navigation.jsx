@@ -35,10 +35,10 @@ class Navigation extends React.Component {
                 <a className="nav-link" href="#home">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about">About Me</a>
+                <a className="nav-link" href="#about-me">About Me</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#work">Projects</a>
+                <a className="nav-link" href="#projects">Projects</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#skills">Skills</a>

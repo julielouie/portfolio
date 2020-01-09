@@ -4,7 +4,7 @@ function Contact(props) {
   const date = new Date();
   const year = date.getFullYear();
   return (
-    <div className="container pt-5">
+    <div className="container pt-5" id="contact">
       <h3 className="text-center py-4">JULIE H. CHUNG</h3>
       <div className="d-flex flex-wrap justify-content-center align-items-center pb-2">
         <div className="px-4">

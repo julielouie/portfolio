@@ -43,7 +43,7 @@ class ProjectList extends React.Component {
   render() {
     const textColor = this.state.currentProject === 1 || this.state.currentProject === 2 ? 'text-white' : null;
     return (
-      <div className="projects position-relative">
+      <div className="projects position-relative" id="projects">
         <div className={`position-absolute ${this.state.projects[this.state.currentProject].class}`}></div>
         <div className="container">
           <div className="col-md-6 pb-5">
