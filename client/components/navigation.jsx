@@ -3,23 +3,39 @@ import React from 'react';
 class Navigation extends React.Component {
   render() {
     return (
-      <div className="sidenav position-fixed">
-        <div className="click navicon d-flex flex-column align-items-center m-5">
-          <i className="home-icon fas fa-home"></i>
+      <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div className="container">
+          <a className="navbar-brand" href="#">Julie H. Chung</a>
+          <button className="collapsed navbar-toggler" type="button" data-toggle="collapse" data-target="#defaultNav" aria-controls="defaultNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i className="fas fa-bars"></i>
+          </button>
+          <div className="collapse navbar-collapse justify-content-end" id="defaultNav">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link" href="#home">Home</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#about">About Me</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#work">Projects</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#skills">Skills</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#tools">Tools</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#contact">Contact</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="">Resume</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div className="click navicon d-flex flex-column align-items-center m-5">
-          <i className="about-me-icon fas fa-user"></i>
-        </div>
-        <div className="click navicon d-flex flex-column align-items-center m-5">
-          <i className="project-list-icon fas fa-project-diagram"></i>
-        </div>
-        <div className="click navicon d-flex flex-column align-items-center m-5">
-          <i className="contact-icon fas fa-address-book"></i>
-        </div>
-        <div className="click navicon d-flex flex-column align-items-center m-5">
-          <i className="resume-icon fas fa-file"></i>
-        </div>
-      </div>
+      </nav>
     );
   }
 }
