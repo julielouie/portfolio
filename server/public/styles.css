@@ -2,49 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 
-.navicon:hover {
-  font-size: 1rem;
-}
-
-.navicon:hover .home-icon:before {
-  content: "Home";
-}
-
-.navicon:hover .about-me-icon:before {
-  content: "About Me";
-}
-
-.navicon:hover .project-list-icon:before {
-  content: "Projects";
-}
-
-.navicon:hover .contact-icon:before {
-  content: "Contact";
-}
-
-.navicon:hover .resume-icon:before {
-  content: "Resume";
-}
-
-.sidenav {
-  right: 0;
-}
-
-.navicon {
-  font-size: 1.5rem;
-  height: 25px;
-  width: 25px;
-  text-align: center;
-}
-
 .hero {
-  height: 80vh;
+  height: 100vh;
   border-bottom: 5px solid black;
-}
-
-.brand {
-  position: relative;
-  top: 10%;
 }
 
 .projects {
