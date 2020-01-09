@@ -6,16 +6,16 @@ function Contact(props) {
   return (
     <div className="container pt-5">
       <h3 className="text-center py-4">JULIE H. CHUNG</h3>
-      <div className="row pb-2 d-flex justify-content-center">
-        <div className="mr-5">
+      <div className="d-flex flex-wrap justify-content-center align-items-center pb-2">
+        <div className="px-4">
           <i className="fas fa-map-marker-alt m-2"></i>
           Orange County/Los Angeles, CA
         </div>
-        <div className="mr-5">
+        <div className="px-4">
           <i className="fas fa-phone-alt m-2"></i>
           (909) 957-8113
         </div>
-        <div className="mr-5">
+        <div className="px-4">
           <i className="fas fa-envelope m-2"></i>
           juliehchung96@gmail.com
         </div>
