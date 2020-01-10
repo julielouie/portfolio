@@ -64,6 +64,20 @@ html {
   opacity: 0.6;
 }
 
+.skills {
+  height: 100vh;
+  width: 100vw;
+}
+
+.icon {
+  font-size: 6rem;
+  margin: auto;
+}
+
+.mysql, .jquery {
+  color: rgb(19, 113, 190);
+}
+
 .click {
   cursor: pointer;
 }
