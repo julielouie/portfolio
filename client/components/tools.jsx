@@ -2,7 +2,7 @@ import React from 'react';
 
 function Tools(props) {
   return (
-    <div className="skills container d-flex flex-column justify-content-center" id="skills">
+    <div className="tools container d-flex flex-column justify-content-center" id="tools">
       <div className="row mx-auto">
         <h1 className="col-12 text-center pb-5">Tools</h1>
         <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
