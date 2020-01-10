@@ -24,7 +24,7 @@ function Tools(props) {
           <i className="devicon-visualstudio-plain colored"></i>
         </div>
         <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="devicon-slack-plain colored"></i>
+          <i className="fab fa-slack"></i>
         </div>
         <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
           <i className="devicon-github-plain colored"></i>
