@@ -2,8 +2,8 @@ import React from 'react';
 
 function AboutMe(props) {
   return (
-    <div className="container py-5 my-5" id="about-me">
-      <div className="row">
+    <div className="container py-5" id="about-me">
+      <div className="row my-5">
         <div className="col-12 col-md-6">
           <h4>About Me</h4>
           <div className="my-5">
