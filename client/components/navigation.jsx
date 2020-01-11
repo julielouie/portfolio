@@ -15,11 +15,12 @@ class Navigation extends React.Component {
   }
 
   render() {
+    const offset = -56;
     const show = this.state.isOpen ? 'show' : null;
     return (
       <nav className="navbar navbar-expand-md navbar-light bg-light sticky-top">
         <div className="container">
-          <a className="navbar-brand" href="#home">Julie H. Chung</a>
+          <Link to="home" smooth={true} duration={100} offset={offset} className="click navbar-brand">Julie H. Chung</Link>
           <button className="collapsed navbar-toggler"
             type="button"
             data-toggle="collapse"
@@ -38,22 +39,19 @@ class Navigation extends React.Component {
           <div className={`collapse navbar-collapse justify-content-end ${show}`} id="defaultNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link activeClass="active" to="home" spy={true} smooth={true} duration={100} className="click nav-link">Home</Link>
+                <Link activeClass="active" to="about-me" spy={true} smooth={true} duration={100} offset={offset} className="click nav-link">About Me</Link>
               </li>
               <li className="nav-item">
-                <Link activeClass="active" to="about-me" spy={true} smooth={true} duration={100} offset={-56} className="click nav-link">About Me</Link>
+                <Link activeClass="active" to="projects" spy={true} smooth={true} duration={100} offset={offset} className="click nav-link">Projects</Link>
               </li>
               <li className="nav-item">
-                <Link activeClass="active" to="projects" spy={true} smooth={true} duration={100} offset={-56} className="click nav-link">Projects</Link>
+                <Link activeClass="active" to="skills" spy={true} smooth={true} duration={100} offset={offset} className="click nav-link">Skills</Link>
               </li>
               <li className="nav-item">
-                <Link activeClass="active" to="skills" spy={true} smooth={true} duration={100} offset={-56} className="click nav-link">Skills</Link>
+                <Link activeClass="active" to="tools" spy={true} smooth={true} duration={100} offset={offset} className="click nav-link">Tools</Link>
               </li>
               <li className="nav-item">
-                <Link activeClass="active" to="tools" spy={true} smooth={true} duration={100} offset={-56} className="click nav-link">Tools</Link>
-              </li>
-              <li className="nav-item">
-                <Link activeClass="active" to="contact" spy={true} smooth={true} duration={100} offset={-56} className="click nav-link">Contact</Link>
+                <Link activeClass="active" to="contact" spy={true} smooth={true} duration={100} offset={offset} className="click nav-link">Contact</Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="">Resume</a>
