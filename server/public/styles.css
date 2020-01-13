@@ -8,7 +8,16 @@ html {
 }
 
 .link-icon {
-  font-size: 1.2rem;
+  text-align: center;
+  font-size: 1.3rem;
+  width: 35px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.link-icon:hover {
+  transform: scale(1.05);
+  box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 .project-img {

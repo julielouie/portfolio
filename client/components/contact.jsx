@@ -22,14 +22,14 @@ function Contact(props) {
           </div>
         </div>
         <div className="row connect d-flex justify-content-center pb-4">
-          <div className="m-3">
-            <i className="click link-icon fab fa-github"></i>
+          <div className="click link-icon m-3">
+            <i className="fab fa-github"></i>
           </div>
-          <div className="m-3">
-            <i className="click link-icon fab fa-linkedin-in"></i>
+          <div className="click link-icon m-3">
+            <i className="fab fa-linkedin"></i>
           </div>
-          <div className="m-3">
-            <i className="click link-icon fas fa-file"></i>
+          <div className="click link-icon m-3">
+            <i className="fas fa-file"></i>
           </div>
         </div>
         <hr />

@@ -10,20 +10,20 @@ function AboutMe(props) {
             <img src="/images/watercolor-stripes-2.png" alt="profile" className="img-fluid" />
           </div>
           <div className="d-flex justify-content-center mb-5">
-            <div className="m-auto">
-              <i className="click link-icon fab fa-github"></i>
+            <div className="click link-icon m-auto">
+              <i className="fab fa-github"></i>
             </div>
-            <div className="m-auto">
-              <i className="click link-icon fab fa-linkedin-in"></i>
+            <div className="click link-icon m-auto">
+              <i className="fab fa-linkedin"></i>
             </div>
-            <div className="m-auto">
-              <i className="click link-icon fas fa-phone-alt"></i>
+            <div className="click link-icon m-auto">
+              <i className="fas fa-phone-alt"></i>
             </div>
-            <div className="m-auto">
-              <i className="click link-icon fas fa-envelope"></i>
+            <div className="click link-icon m-auto">
+              <i className="fas fa-envelope"></i>
             </div>
-            <div className="m-auto">
-              <i className="click link-icon fas fa-file"></i>
+            <div className="click link-icon m-auto">
+              <i className="fas fa-file"></i>
             </div>
           </div>
         </div>
