@@ -7,15 +7,10 @@ html {
   border-bottom: 5px solid black;
 }
 
-.projects {
-  height: 110vh;
-  width: 100vw;
-}
-
 .project-img {
   z-index: -1;
   background-repeat: no-repeat;
-  height: 110vh;
+  height: calc(100vh - 56px);
   width: 100vw;
 }
 
@@ -55,7 +50,7 @@ html {
 
 .spontaneously-img {
   background-image: linear-gradient(rgba(71, 19, 71, 0.7), rgba(255, 192, 203, 0.5)), url('/images/spontaneously.jpg');
-  background-position: 35% 76%;
+  background-position: 35% 78%;
 }
 
 .bobafy-img {
@@ -64,9 +59,13 @@ html {
   opacity: 0.6;
 }
 
-.skills, .tools {
-  height: 120vh;
+.projects {
+  height: calc(100vh - 56px);
   width: 100vw;
+}
+
+.contact {
+  height: 100vh;
 }
 
 .icon {
@@ -79,4 +78,10 @@ html {
 
 .click {
   cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .default-img, .borker-img {
+    background-position: center;
+  }
 }
