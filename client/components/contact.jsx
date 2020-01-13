@@ -21,7 +21,7 @@ function Contact(props) {
             juliehchung96@gmail.com
           </div>
         </div>
-        <div className="row connect d-flex justify-content-center pb-4">
+        <div className="row d-flex justify-content-center pb-4">
           <div className="click link-icon m-3">
             <i className="fab fa-github"></i>
           </div>
