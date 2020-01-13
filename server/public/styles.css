@@ -7,6 +7,10 @@ html {
   border-bottom: 5px solid black;
 }
 
+.link-icon {
+  font-size: 1.2rem;
+}
+
 .project-img {
   z-index: -1;
   background-repeat: no-repeat;
