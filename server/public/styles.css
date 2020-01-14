@@ -22,6 +22,11 @@ html {
   opacity: 1;
 }
 
+.projects {
+  height: calc(100vh - 56px);
+  width: 100vw;
+}
+
 .project-img {
   z-index: -1;
   background-repeat: no-repeat;
@@ -74,9 +79,10 @@ html {
   opacity: 0.6;
 }
 
-.projects {
-  height: calc(100vh - 56px);
-  width: 100vw;
+.tools {
+  background-image: url("/images/watercolor-texture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .contact {
