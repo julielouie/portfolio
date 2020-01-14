@@ -12,14 +12,12 @@ class App extends React.Component {
     return (
       <>
         <Navigation />
-        <div>
-          <Hero />
-          <AboutMe />
-          <Skills />
-          <ProjectList />
-          <Tools />
-          <Contact />
-        </div>
+        <Hero />
+        <AboutMe />
+        <ProjectList />
+        <Skills />
+        <Tools />
+        <Contact />
       </>
     );
   }
