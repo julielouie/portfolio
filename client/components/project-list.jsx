@@ -8,7 +8,7 @@ class ProjectList extends React.Component {
       projects: [
         {
           title: 'Full Stack Developer',
-          description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolore culpa ratione quaerat deserunt vitae aspernatur numquam cumque tenetur error nihil, hic totam facere! Velit voluptatem corrupti quae labore iste.',
+          description: 'My greatest passion is to continue learning and growing as much as I can, for as long as I can. I love the idea of building and creating something, from nothing! The following are a few applications that I have had the pleasure of contributing to, and creating.',
           linkName: 'Github',
           link: 'https://github.com/juliehchung',
           class: 'default-img project-img'
@@ -24,7 +24,7 @@ class ProjectList extends React.Component {
         },
         {
           title: 'Spontaneous.ly',
-          description: 'Full stack mobile web application built in 2.5 weeks, in a team of four. Created using using React.js, Bootstrap, PHP, and MySQL, Spontaneous.ly is designed for adventurous people that want to embark on a spontaneous activity.',
+          description: 'Full stack mobile web application built in 2.5 weeks, with a team of four. Created using using React.js, Bootstrap, PHP, and MySQL, Spontaneous.ly is designed for adventurous people that want to embark on a spontaneous activity.',
           gitTitle: 'Github',
           gitLink: 'https://github.com/kevinakahoshi/spontaneous.ly',
           linkName: 'Live Site',
