@@ -9,25 +9,35 @@ class ProjectList extends React.Component {
         {
           title: 'Full Stack Developer',
           description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolore culpa ratione quaerat deserunt vitae aspernatur numquam cumque tenetur error nihil, hic totam facere! Velit voluptatem corrupti quae labore iste.',
-          link: 'Github',
+          linkName: 'Github',
+          link: 'https://github.com/juliehchung',
           class: 'default-img project-img'
         },
         {
           title: 'BORKER',
           description: 'Borker. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolore culpa ratione quaerat deserunt vitae aspernatur numquam cumque tenetur error nihil, hic totam facere! Velit voluptatem corrupti quae labore iste.',
-          link: 'borker.juliehchung.com',
+          gitTitle: 'Github',
+          gitLink: 'https://github.com/juliehchung/borker',
+          linkName: 'Live Site',
+          link: 'https://borker.juliehchung.com',
           class: 'borker-img project-img'
         },
         {
           title: 'Spontaneous.ly',
           description: 'Spontaneous.ly. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolore culpa ratione quaerat deserunt vitae aspernatur numquam cumque tenetur error nihil, hic totam facere! Velit voluptatem corrupti quae labore iste.',
-          link: 'spontaneouslyapp.kevinakahoshi.com',
+          gitTitle: 'Github',
+          gitLink: 'https://github.com/kevinakahoshi/spontaneous.ly',
+          linkName: 'Live Site',
+          link: 'https://spontaneouslyapp.com/',
           class: 'spontaneously-img project-img'
         },
         {
           title: 'Bobafy',
           description: 'Bobafy.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolore culpa ratione quaerat deserunt vitae aspernatur numquam cumque tenetur error nihil, hic totam facere! Velit voluptatem corrupti quae labore iste.',
-          link: 'bobafy.juliehchung.com',
+          gitTitle: 'Github',
+          gitLink: 'https://github.com/juliehchung/bobafy',
+          linkName: 'Live Site',
+          link: 'https://bobafy.juliehchung.com',
           class: 'bobafy-img project-img'
         }
       ],

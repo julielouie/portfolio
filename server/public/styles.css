@@ -23,19 +23,19 @@ html {
 }
 
 .projects {
-  height: calc(100vh - 56px);
+  height: calc(120vh - 56px);
   width: 100vw;
 }
 
 .project-img {
   z-index: -1;
   background-repeat: no-repeat;
-  height: calc(100vh - 56px);
+  height: calc(120vh - 56px);
   width: 100vw;
 }
 
 .apps {
-  bottom: 5%;
+  bottom: 10%;
 }
 
 .project {
