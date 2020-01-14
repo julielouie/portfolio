@@ -2,32 +2,42 @@ import React from 'react';
 
 function Skills(props) {
   return (
-    <div className="skills container d-flex flex-column justify-content-center" id="skills">
-      <div className="row mx-auto">
-        <h1 className="col-12 text-center pb-5">Skills</h1>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="devicon-javascript-plain colored"></i>
-        </div>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="devicon-react-original colored"></i>
-        </div>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="devicon-php-plain colored"></i>
-        </div>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="mysql devicons devicons-mysql"></i>
-        </div>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="jquery devicons devicons-jquery"></i>
-        </div>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="devicon-bootstrap-plain colored"></i>
-        </div>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="devicon-html5-plain colored"></i>
-        </div>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="devicon-css3-plain colored"></i>
+    <div className="d-flex flex-column justify-content-center py-5" id="skills">
+      <div className="mx-auto pt-5">
+        <h1 className="col-12 text-center pb-3">Skills</h1>
+        <div className="d-flex flex-wrap pb-5">
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-javascript-plain colored"></i>
+            <h5 className="m-3">JavaScript</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-react-original colored"></i>
+            <h5 className="m-3">React.js</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-php-plain colored"></i>
+            <h5 className="m-3">PHP</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon mysql devicons devicons-mysql"></i>
+            <h5 className="m-3">MySQL</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon jquery devicons devicons-jquery"></i>
+            <h5 className="m-3">jQuery</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-bootstrap-plain colored"></i>
+            <h5 className="m-3">Bootstrap</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-html5-plain colored"></i>
+            <h5 className="m-3">CSS3</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-css3-plain colored"></i>
+            <h5 className="m-3">HTML5</h5>
+          </div>
         </div>
       </div>
     </div>

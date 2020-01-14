@@ -2,44 +2,58 @@ import React from 'react';
 
 function Tools(props) {
   return (
-    <div className="tools container d-flex flex-column justify-content-center" id="tools">
-      <div className="row mx-auto">
-        <h1 className="col-12 text-center pb-5">Tools</h1>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="devicon-amazonwebservices-original colored"></i>
-        </div>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="devicon-apache-plain colored"></i>
-        </div>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="devicon-babel-plain colored"></i>
-        </div>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="devicon-webpack-plain colored"></i>
-        </div>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="devicons devicons-npm"></i>
-        </div>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="devicon-visualstudio-plain colored"></i>
-        </div>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="fab fa-slack"></i>
-        </div>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="devicon-github-plain colored"></i>
-        </div>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="devicon-ubuntu-plain colored"></i>
-        </div>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="fab fa-figma"></i>
-        </div>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="devicon-chrome-plain colored"></i>
-        </div>
-        <div className="icon col-6 col-md-3 d-flex justify-content-center p-4">
-          <i className="devicon-photoshop-line colored"></i>
+    <div className="tools d-flex flex-column justify-content-center py-5" id="tools">
+      <div className="mx-auto pt-5">
+        <h1 className="col-12 text-center pb-2">Tools</h1>
+        <div className="d-flex flex-wrap pb-5">
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-github-plain colored"></i>
+            <h5 className="m-3">Github</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-visualstudio-plain colored"></i>
+            <h5 className="m-3">VS Code</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicons devicons-npm"></i>
+            <h5 className="m-3">npm</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-webpack-plain colored"></i>
+            <h5 className="m-3">Webpack</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-babel-plain colored"></i>
+            <h5 className="m-3">Babel</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon fab fa-figma"></i>
+            <h5 className="m-3">Figma</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-chrome-plain colored"></i>
+            <h5 className="m-3">Chrome Dev Tools</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-amazonwebservices-original colored"></i>
+            <h5 className="m-3">AWS</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-ubuntu-plain colored"></i>
+            <h5 className="m-3">Ubuntu</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-apache-line colored"></i>
+            <h5 className="m-3">Apache</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-photoshop-line colored"></i>
+            <h5 className="m-3">Adobe Photoshop</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon fab fa-slack"></i>
+            <h5 className="m-3">Slack</h5>
+          </div>
         </div>
       </div>
     </div>
