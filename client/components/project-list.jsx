@@ -15,7 +15,7 @@ class ProjectList extends React.Component {
         },
         {
           title: 'BORKER',
-          description: 'Borker. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolore culpa ratione quaerat deserunt vitae aspernatur numquam cumque tenetur error nihil, hic totam facere! Velit voluptatem corrupti quae labore iste.',
+          description: 'A LAMP stack content management web application, for pet-related e-commerce. Responsive, clean layout with a robust backend built using React.js, Bootstrap, PHP, and MySQL.',
           gitTitle: 'Github',
           gitLink: 'https://github.com/juliehchung/borker',
           linkName: 'Live Site',
@@ -24,7 +24,7 @@ class ProjectList extends React.Component {
         },
         {
           title: 'Spontaneous.ly',
-          description: 'Spontaneous.ly. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolore culpa ratione quaerat deserunt vitae aspernatur numquam cumque tenetur error nihil, hic totam facere! Velit voluptatem corrupti quae labore iste.',
+          description: 'Full stack mobile web application built in 2.5 weeks, in a team of four. Created using using React.js, Bootstrap, PHP, and MySQL, Spontaneous.ly is designed for adventurous people that want to embark on a spontaneous activity.',
           gitTitle: 'Github',
           gitLink: 'https://github.com/kevinakahoshi/spontaneous.ly',
           linkName: 'Live Site',
@@ -33,7 +33,7 @@ class ProjectList extends React.Component {
         },
         {
           title: 'Bobafy',
-          description: 'Bobafy.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolore culpa ratione quaerat deserunt vitae aspernatur numquam cumque tenetur error nihil, hic totam facere! Velit voluptatem corrupti quae labore iste.',
+          description: 'A JavaScript memory matching application designed to fit a modern, diverse boba-drink aesthetic. Implemented dynamic, mobile-responsive DOM creation, using JavaScript and jQuery.',
           gitTitle: 'Github',
           gitLink: 'https://github.com/juliehchung/bobafy',
           linkName: 'Live Site',

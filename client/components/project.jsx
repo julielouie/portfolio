@@ -9,7 +9,7 @@ function Project(props) {
   return (
     <>
       <h3 className={`${textColor} mb-3 pt-3`}>{props.projects[props.current].title}</h3>
-      <p className={`${textColor} my-3`}>{props.projects[props.current].description}</p>
+      <h5 className={`${textColor} my-3`}>{props.projects[props.current].description}</h5>
       {liveCode}
       <a className={`${textColor} mt-5`} href={props.projects[props.current].link}>
         {props.projects[props.current].linkName}
