@@ -23,36 +23,18 @@ html {
 }
 
 .projects {
-  height: calc(100vh - 56px);
+  height: calc(105vh - 56px);
   width: 100vw;
 }
 
 .project-img {
   z-index: -1;
   background-repeat: no-repeat;
-  height: calc(100vh - 56px);
+  height: calc(105vh - 56px);
   width: 100vw;
 }
 
-.apps {
-  bottom: 10%;
-}
-
 .project {
-  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.5);
-}
-
-.apps:hover .project{
-  transform: scale(0.95);
-  filter: blur(2px);
-  opacity: 0.5;
-  box-shadow: none;
-}
-
-.apps:hover .project:hover{
-  transform: scale(1);
-  filter: blur(0px);
-  opacity: 1;
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.5);
 }
 

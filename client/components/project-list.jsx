@@ -53,37 +53,35 @@ class ProjectList extends React.Component {
   render() {
     const textColor = this.state.currentProject === 1 || this.state.currentProject === 2 ? 'text-white' : null;
     return (
-      <div className="projects position-relative" id="projects">
+      <div className="projects d-flex" id="projects">
         <div className={`position-absolute ${this.state.projects[this.state.currentProject].class}`}></div>
-        <div className="container">
-          <div className="col-md-6 pb-5">
-            <h1 className={`${textColor} pt-5`}>PROJECTS</h1>
+        <div className="row py-5">
+          <div className="col-10 col-md-4 m-auto">
+            <h1 className={`${textColor} `}>PROJECTS</h1>
             <Project projects={this.state.projects} current={this.state.currentProject}/>
           </div>
-          <div className="row">
-            <div className="apps container d-flex flex-wrap justify-content-between position-absolute">
-              <div className="col-md-3">
-                <div className="click project card"
-                  onClick={() => this.handleClick(1)}>
-                  <div className="card-body">
-                    <h5 className="card-title text-center my-auto py-3">BORKER</h5>
-                  </div>
+          <div className="col-10 col-md-6 d-flex flex-column m-auto">
+            <div className="">
+              <div className="click project card"
+                onClick={() => this.handleClick(1)}>
+                <div className="card-body">
+                  <h5 className="card-title text-center my-auto">BORKER</h5>
                 </div>
               </div>
-              <div className="col-md-3">
-                <div className="click project card"
-                  onClick={() => this.handleClick(2)}>
-                  <div className="card-body">
-                    <h5 className="card-title text-center my-auto py-3">Spontaneous.ly</h5>
-                  </div>
+            </div>
+            <div className="">
+              <div className="click project card"
+                onClick={() => this.handleClick(2)}>
+                <div className="card-body">
+                  <h5 className="card-title text-center my-auto">Spontaneous.ly</h5>
                 </div>
               </div>
-              <div className="col-md-3">
-                <div className="click project card"
-                  onClick={() => this.handleClick(3)}>
-                  <div className="card-body">
-                    <h5 className="card-title text-center my-auto py-3">Bobafy</h5>
-                  </div>
+            </div>
+            <div className="">
+              <div className="click project card"
+                onClick={() => this.handleClick(3)}>
+                <div className="card-body">
+                  <h5 className="card-title text-center my-auto">Bobafy</h5>
                 </div>
               </div>
             </div>
