@@ -53,15 +53,14 @@ class ProjectList extends React.Component {
   render() {
     const textColor = this.state.currentProject === 1 || this.state.currentProject === 2 ? 'text-white' : null;
     return (
-      <div className="projects d-flex" id="projects">
-        <div className={`position-absolute ${this.state.projects[this.state.currentProject].class}`}></div>
+      <div className={`${this.state.projects[this.state.currentProject].class} d-flex`} id="projects">
         <div className="row py-5">
-          <div className="col-10 col-md-4 m-auto">
+          <div className="col-10 col-md-5 m-auto">
             <h1 className={`${textColor} `}>PROJECTS</h1>
             <Project projects={this.state.projects} current={this.state.currentProject}/>
           </div>
-          <div className="col-10 col-md-6 d-flex flex-column m-auto">
-            <div className="">
+          <div className="col-10 col-md-5 d-flex flex-column m-auto">
+            <div className="mb-5">
               <div className="click project card"
                 onClick={() => this.handleClick(1)}>
                 <div className="card-body">
@@ -69,7 +68,7 @@ class ProjectList extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="">
+            <div className="mb-5">
               <div className="click project card"
                 onClick={() => this.handleClick(2)}>
                 <div className="card-body">

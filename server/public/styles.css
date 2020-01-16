@@ -22,20 +22,10 @@ html {
   opacity: 1;
 }
 
-.projects {
-  height: calc(105vh - 56px);
-  width: 100vw;
-}
-
 .project-img {
-  z-index: -1;
   background-repeat: no-repeat;
-  height: calc(105vh - 56px);
+  min-height: calc(105vh - 56px);
   width: 100vw;
-}
-
-.project {
-  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
 .default-img {
@@ -56,9 +46,12 @@ html {
 }
 
 .bobafy-img {
-  background-image: url('/images/bobafy.png');
+  background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.6)), url('/images/bobafy.png');
   background-size: cover;
-  opacity: 0.6;
+}
+
+.project {
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
 .tools {

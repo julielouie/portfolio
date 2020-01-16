@@ -4,7 +4,7 @@ function Project(props) {
   const textColor = props.current === 1 || props.current === 2 ? 'text-white' : null;
   const liveCode = props.current !== 0 ? <a className={`${textColor} my-5 mr-3`} href={props.projects[props.current].gitLink}>
     {props.projects[props.current].gitTitle }
-    <i className = "fas fa-external-link-alt ml-2"></i>
+    <i className="fas fa-external-link-alt ml-2"></i>
   </a> : null;
   return (
     <>
