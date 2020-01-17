@@ -1,9 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display&display=swap');
 
 html {
   scroll-behavior: smooth;
-  font-family: 'Lato', sans-serif;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.1rem;
+}
+
+h1, h2, h3, h4, .nav-font {
+  font-family: 'Playfair Display', serif;
 }
 
 .hero {

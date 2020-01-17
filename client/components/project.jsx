@@ -10,7 +10,7 @@ function Project(props) {
   return (
     <>
       <h3 className={`${textColor} mb-3 pt-3`}>{props.projects[props.current].title}</h3>
-      <h5 className={`${textColor} my-3 py-2`}>{props.projects[props.current].description}</h5>
+      <p className={`${textColor} my-3 py-2`}>{props.projects[props.current].description}</p>
       {liveCode}
       <a className={`proj-link ${textColor} my-5 ${borderColor} rounded p-2`} href={props.projects[props.current].link} target="_blank" rel="noopener noreferrer">
         {props.projects[props.current].linkName}
