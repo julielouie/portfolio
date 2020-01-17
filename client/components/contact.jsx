@@ -33,7 +33,7 @@ function Contact(props) {
           </div>
         </div>
         <hr />
-        <div className="text-center py-5">© Julie Chung {year}</div>
+        <div className="text-center nav-font py-5">© Julie Chung {year}</div>
       </div>
     </div>
   );
