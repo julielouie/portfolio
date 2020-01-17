@@ -54,7 +54,7 @@ class Navigation extends React.Component {
                 <Link activeClass="active" to="contact" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link px-3" onClick={this.toggleNav}>Contact</Link>
               </li>
               <li className="nav-item nav-font">
-                <a className="nav-link" href="">Resume</a>
+                <a className="nav-link" href="/assets/Julie_Chung.pdf" target="_blank" rel="noopener noreferrer" aria-label="Resume" download>Resume</a>
               </li>
             </ul>
           </div>

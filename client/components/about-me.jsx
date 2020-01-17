@@ -10,21 +10,21 @@ function AboutMe(props) {
             <img src="/images/watercolor-stripes-2.png" alt="profile" className="img-fluid" />
           </div>
           <div className="d-flex justify-content-center mb-5">
-            <a className="click link-icon m-auto text-dark" href="https://github.com/juliehchung" target="_blank" rel="noopener noreferrer">
+            <a className="click link-icon m-auto text-dark" href="https://github.com/juliehchung" target="_blank" rel="noopener noreferrer" aria-label="Github">
               <i className="fab fa-github"></i>
             </a>
-            <a className="click link-icon m-auto text-dark" href="https://www.linkedin.com/in/juliehchung/" target="_blank" rel="noopener noreferrer">
+            <a className="click link-icon m-auto text-dark" href="https://www.linkedin.com/in/juliehchung/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <i className="fab fa-linkedin"></i>
             </a>
-            <a className="click link-icon m-auto text-dark" href="tel:9099578113">
+            <a className="click link-icon m-auto text-dark" href="tel:9099578113" aria-label="Phone">
               <i className="fas fa-phone-alt"></i>
             </a>
-            <a className="click link-icon m-auto text-dark" href="mailto:juliehchung96@gmail.com" >
+            <a className="click link-icon m-auto text-dark" href="mailto:juliehchung96@gmail.com" aria-label="Email">
               <i className="fas fa-envelope"></i>
             </a>
-            <div className="click link-icon m-auto">
+            <a className="click link-icon m-3 text-dark" href="/assets/Julie_Chung.pdf" target="_blank" rel="noopener noreferrer" aria-label="Resume" download>
               <i className="fas fa-file"></i>
-            </div>
+            </a>
           </div>
         </div>
         <div className="col-12 col-md-8">
