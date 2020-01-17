@@ -13,6 +13,10 @@ h1, h2, h3, h4, .nav-font {
   font-family: 'Playfair Display', serif;
 }
 
+.navigation {
+  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+}
+
 .hero {
   height: 100vh;
 }
@@ -51,7 +55,7 @@ h1, h2, h3, h4, .nav-font {
 .borker-img {
   background: linear-gradient(to left, rgba(224, 151, 151, 0.3), rgba(216, 153, 142, 0.6)), url('/images/borker.jpg');
   background-size: cover;
-  background-position: 0% 60%;
+  background-position: 50% 60%;
 }
 
 .spontaneously-img {
@@ -68,10 +72,12 @@ h1, h2, h3, h4, .nav-font {
   color: white;
   background-size: cover;
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.5);
+  opacity: 0.95;
 }
 
 .project:hover {
   transform: scale(1.05);
+  opacity: 1;
 }
 
 .project-1 {
@@ -87,7 +93,7 @@ h1, h2, h3, h4, .nav-font {
 }
 
 .tools {
-  background-image: url("/images/watercolor-texture.jpg");
+  background: linear-gradient(rgba(156, 223, 217, 0.7), rgba(134, 231, 210, 0.5)), url("/images/watercolor-texture.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
