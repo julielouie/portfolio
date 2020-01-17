@@ -22,12 +22,12 @@ function Contact(props) {
           </div>
         </div>
         <div className="row d-flex justify-content-center pb-4">
-          <div className="click link-icon m-3">
+          <a className="click link-icon m-3 text-dark" href="https://github.com/juliehchung" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github"></i>
-          </div>
-          <div className="click link-icon m-3">
+          </a>
+          <a className="click link-icon m-3 text-dark" href="https://www.linkedin.com/in/juliehchung/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin"></i>
-          </div>
+          </a>
           <div className="click link-icon m-3">
             <i className="fas fa-file"></i>
           </div>
