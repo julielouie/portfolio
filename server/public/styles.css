@@ -22,10 +22,14 @@ body {
   opacity: 0.65;
 }
 
-.link-icon:hover, .proj-link {
+.link-icon:hover, .link-icon:focus {
   transform: scale(1.05);
   box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.5);
   opacity: 1;
+}
+
+.proj-link {
+  box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 .project-img {
@@ -41,13 +45,13 @@ body {
 }
 
 .borker-img {
-  background-image: linear-gradient(to left, rgba(73, 46, 46, 0.3), rgba(36, 25, 23, 0.6)), url('/images/borker.jpg');
+  background: linear-gradient(to left, rgba(224, 151, 151, 0.3), rgba(216, 153, 142, 0.6)), url('/images/borker.jpg');
   background-size: cover;
-  background-position: 0% 100%;
+  background-position: 0% 60%;
 }
 
 .spontaneously-img {
-  background-image: linear-gradient(rgba(71, 19, 71, 0.7), rgba(255, 192, 203, 0.5)), url('/images/spontaneously.jpg');
+  background: linear-gradient(rgba(71, 19, 71, 0.7), rgba(255, 192, 203, 0.5)), url('/images/spontaneously.jpg');
   background-position: 35% 78%;
 }
 
@@ -62,8 +66,12 @@ body {
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
+.project:hover {
+  transform: scale(1.05);
+}
+
 .project-1 {
-  background: linear-gradient(to left, rgba(187, 138, 202, 0.7), rgba(250, 192, 255, 0.5)), url("/images/watercolor-border.jpg");
+  background: linear-gradient(to left, rgba(177, 122, 194, 0.7), rgba(239, 155, 247, 0.5)), url("/images/watercolor-border.jpg");
 }
 
 .project-2 {
