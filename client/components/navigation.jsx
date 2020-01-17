@@ -42,10 +42,10 @@ class Navigation extends React.Component {
                 <Link activeClass="active" to="about-me" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link" onClick={this.toggleNav}>About Me</Link>
               </li>
               <li className="nav-item">
-                <Link activeClass="active" to="skills" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link" onClick={this.toggleNav}>Skills</Link>
+                <Link activeClass="active" to="projects" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link" onClick={this.toggleNav}>Projects</Link>
               </li>
               <li className="nav-item">
-                <Link activeClass="active" to="projects" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link" onClick={this.toggleNav}>Projects</Link>
+                <Link activeClass="active" to="skills" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link" onClick={this.toggleNav}>Skills</Link>
               </li>
               <li className="nav-item">
                 <Link activeClass="active" to="tools" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link" onClick={this.toggleNav}>Tools</Link>
