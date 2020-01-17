@@ -61,7 +61,7 @@ class ProjectList extends React.Component {
           </div>
           <div className="col-10 col-md-5 d-flex flex-column m-auto">
             <div className="mb-5">
-              <div className="click project card"
+              <div className="click project project-1 card"
                 onClick={() => this.handleClick(1)}>
                 <div className="card-body">
                   <h5 className="card-title text-center my-auto py-3">BORKER</h5>
@@ -69,7 +69,7 @@ class ProjectList extends React.Component {
               </div>
             </div>
             <div className="mb-5">
-              <div className="click project card"
+              <div className="click project project-2 card"
                 onClick={() => this.handleClick(2)}>
                 <div className="card-body">
                   <h5 className="card-title text-center my-auto py-3">Spontaneous.ly</h5>
@@ -77,7 +77,7 @@ class ProjectList extends React.Component {
               </div>
             </div>
             <div className="">
-              <div className="click project card"
+              <div className="click project project-3 card"
                 onClick={() => this.handleClick(3)}>
                 <div className="card-body">
                   <h5 className="card-title text-center my-auto py-3">Bobafy</h5>
