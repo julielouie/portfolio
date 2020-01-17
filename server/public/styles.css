@@ -2,21 +2,18 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
   font-family: 'Lato', sans-serif;
+  font-size: 1.1rem;
 }
 
 .hero {
   height: 100vh;
-  border-bottom: 5px solid black;
 }
 
 .link-icon {
   text-align: center;
-  font-size: 1.3rem;
-  width: 35px;
+  font-size: 1.2rem;
+  width: 40px;
   border: 2px solid black;
   border-radius: 10px;
   opacity: 0.65;
@@ -93,7 +90,7 @@ body {
 }
 
 .icon {
-  font-size: 6.5rem;
+  font-size: 6rem;
 }
 
 .mysql, .jquery {
