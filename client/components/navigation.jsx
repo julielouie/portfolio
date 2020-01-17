@@ -25,7 +25,7 @@ class Navigation extends React.Component {
     return (
       <nav className="navbar navbar-expand-md navbar-light bg-light sticky-top">
         <div className="container">
-          <Link to="home" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-font navbar-brand" onClick={scroll.scrollToTop}>Julie H. Chung</Link>
+          <Link to="home" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-font navbar-brand" onClick={scroll.scrollToTop}>JULIE H. CHUNG</Link>
           <button className="collapsed navbar-toggler"
             type="button"
             data-toggle="collapse"
