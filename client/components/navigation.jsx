@@ -36,22 +36,22 @@ class Navigation extends React.Component {
             onClick={this.toggleNav}>
             <i className="fas fa-bars"></i>
           </button>
-          <div className={`collapse navbar-collapse justify-content-end ${show}`} id="defaultNav">
+          <div className={`collapse navbar-collapse justify-content-end ${show} py-2`} id="defaultNav">
             <ul className="navbar-nav">
               <li className="nav-item nav-font">
-                <Link activeClass="active" to="about-me" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link" onClick={this.toggleNav}>About Me</Link>
+                <Link activeClass="active" to="about-me" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link px-3" onClick={this.toggleNav}>About Me</Link>
               </li>
               <li className="nav-item nav-font">
-                <Link activeClass="active" to="projects" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link" onClick={this.toggleNav}>Projects</Link>
+                <Link activeClass="active" to="projects" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link px-3" onClick={this.toggleNav}>Projects</Link>
               </li>
               <li className="nav-item nav-font">
-                <Link activeClass="active" to="skills" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link" onClick={this.toggleNav}>Skills</Link>
+                <Link activeClass="active" to="skills" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link px-3" onClick={this.toggleNav}>Skills</Link>
               </li>
               <li className="nav-item nav-font">
-                <Link activeClass="active" to="tools" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link" onClick={this.toggleNav}>Tools</Link>
+                <Link activeClass="active" to="tools" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link px-3" onClick={this.toggleNav}>Tools</Link>
               </li>
               <li className="nav-item nav-font">
-                <Link activeClass="active" to="contact" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link" onClick={this.toggleNav}>Contact</Link>
+                <Link activeClass="active" to="contact" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link px-3" onClick={this.toggleNav}>Contact</Link>
               </li>
               <li className="nav-item nav-font">
                 <a className="nav-link" href="">Resume</a>

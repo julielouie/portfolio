@@ -9,8 +9,8 @@ class ProjectList extends React.Component {
         {
           title: 'Full Stack Developer',
           description: 'My greatest passion is to continue learning and growing as much as I can, for as long as I can. I love the idea of building and creating something, from nothing! The following are a few applications that I have had the pleasure of contributing to, and creating.',
-          linkName: 'Github',
-          link: 'https://github.com/juliehchung',
+          gitTitle: 'Github',
+          gitLink: 'https://github.com/juliehchung',
           class: 'default-img project-img'
         },
         {
