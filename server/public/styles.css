@@ -19,17 +19,18 @@ h1, h2, h3, h4, .nav-font {
 
 .hero {
   height: 100vh;
-  background: url("/images/paint.jpg");
+  background: url("/images/paint-hero.jpg");
   background-size: cover;
-  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .name {
-  font-size: 5rem;
+  font-size: 4.5rem;
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .link-icon {
@@ -140,6 +141,7 @@ h1, h2, h3, h4, .nav-font {
   }
 
   .hero {
-    background-position: 50% 50%;
+    background-size: cover;
+    background-position: 45% 0%;
   }
 }
