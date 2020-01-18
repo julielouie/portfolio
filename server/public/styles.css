@@ -9,16 +9,38 @@ body {
   font-size: 1.1rem;
 }
 
-h1, h2, h3, h4, .nav-font {
+h1, h2, h3, h4 {
   font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+}
+
+.nav-font {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
 }
 
 .navigation {
-  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.123);
 }
 
 .hero {
   height: 100vh;
+  background: url("/images/paint-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.name {
+  font-size: 4.5rem;
+}
+
+.heading {
+  font-size: 3rem;
+}
+
+.title {
+  font-size: 2rem;
 }
 
 .link-icon {
@@ -117,5 +139,10 @@ h1, h2, h3, h4, .nav-font {
 @media (max-width: 767px) {
   .default-img, .borker-img {
     background-position: center;
+  }
+
+  .hero {
+    background-size: cover;
+    background-position: 45% 0%;
   }
 }

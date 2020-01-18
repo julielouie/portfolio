@@ -5,9 +5,9 @@ function AboutMe(props) {
     <div className="container py-5" id="about-me">
       <div className="row my-5">
         <div className="col-12 col-md-4">
-          <h1>ABOUT ME</h1>
+          <h1 className="heading">ABOUT ME</h1>
           <div className="my-5">
-            <img src="/images/watercolor-stripes-2.png" alt="profile" className="img-fluid" />
+            <img src="/images/watercolor-stripes.png" alt="profile" className="img-fluid" />
           </div>
           <div className="d-flex justify-content-center mb-5">
             <a className="click link-icon m-auto text-dark" href="https://github.com/juliehchung" target="_blank" rel="noopener noreferrer" aria-label="Github">

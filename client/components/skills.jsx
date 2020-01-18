@@ -4,7 +4,7 @@ function Skills(props) {
   return (
     <div className="d-flex flex-column justify-content-center py-5" id="skills">
       <div className="mx-auto pt-5">
-        <h1 className="col-12 text-center pb-3">Skills</h1>
+        <h1 className="heading col-12 text-center pb-3">SKILLS</h1>
         <div className="d-flex flex-wrap pb-5">
           <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
             <i className="icon devicon-javascript-plain colored"></i>

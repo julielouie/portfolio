@@ -18,9 +18,9 @@ class Navigation extends React.Component {
 
   render() {
     const show = this.state.isOpen ? 'show' : null;
-    let offsetNav = -56;
+    let offsetNav = -76;
     if (window.innerWidth < 768) {
-      offsetNav = -296;
+      offsetNav = -290;
     }
     return (
       <nav className="navigation navbar navbar-expand-md navbar-light bg-light sticky-top">
@@ -39,7 +39,7 @@ class Navigation extends React.Component {
           <div className={`collapse navbar-collapse justify-content-end ${show} py-2`} id="defaultNav">
             <ul className="navbar-nav">
               <li className="nav-item nav-font">
-                <Link activeClass="active" to="about-me" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link px-3" onClick={this.toggleNav}>About Me</Link>
+                <Link activeClass="active" to="about-me" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link px-3" onClick={this.toggleNav}>About</Link>
               </li>
               <li className="nav-item nav-font">
                 <Link activeClass="active" to="projects" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link px-3" onClick={this.toggleNav}>Projects</Link>
@@ -52,9 +52,6 @@ class Navigation extends React.Component {
               </li>
               <li className="nav-item nav-font">
                 <Link activeClass="active" to="contact" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link px-3" onClick={this.toggleNav}>Contact</Link>
-              </li>
-              <li className="nav-item nav-font">
-                <a className="nav-link" href="/assets/Julie_Chung.pdf" target="_blank" rel="noopener noreferrer" aria-label="Resume" download>Resume</a>
               </li>
             </ul>
           </div>

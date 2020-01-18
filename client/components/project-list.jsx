@@ -56,7 +56,7 @@ class ProjectList extends React.Component {
       <div className={`${this.state.projects[this.state.currentProject].class} d-flex`} id="projects">
         <div className="row py-5">
           <div className="col-10 col-md-5 pb-5 m-auto">
-            <h1 className={`${textColor} `}>PROJECTS</h1>
+            <h1 className={`heading ${textColor}`}>PROJECTS</h1>
             <Project projects={this.state.projects} current={this.state.currentProject}/>
           </div>
           <div className="col-10 col-md-5 d-flex flex-column m-auto">
