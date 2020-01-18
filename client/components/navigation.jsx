@@ -18,9 +18,9 @@ class Navigation extends React.Component {
 
   render() {
     const show = this.state.isOpen ? 'show' : null;
-    let offsetNav = -56;
+    let offsetNav = -76;
     if (window.innerWidth < 768) {
-      offsetNav = -296;
+      offsetNav = -290;
     }
     return (
       <nav className="navigation navbar navbar-expand-md navbar-light bg-light sticky-top">
