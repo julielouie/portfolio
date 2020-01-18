@@ -29,6 +29,10 @@ h1, h2, h3, h4, .nav-font {
   font-size: 4.5rem;
 }
 
+.heading {
+  font-size: 3rem;
+}
+
 .title {
   font-size: 2rem;
 }

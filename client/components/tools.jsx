@@ -4,7 +4,7 @@ function Tools(props) {
   return (
     <div className="tools d-flex flex-column justify-content-center py-5" id="tools">
       <div className="mx-auto pt-5">
-        <h1 className="col-12 text-center pb-2">Tools</h1>
+        <h1 className="heading col-12 text-center pb-2">TOOLS</h1>
         <div className="d-flex flex-wrap pb-5">
           <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
             <i className="icon devicon-github-plain colored"></i>

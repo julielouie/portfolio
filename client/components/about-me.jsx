@@ -5,7 +5,7 @@ function AboutMe(props) {
     <div className="container py-5" id="about-me">
       <div className="row my-5">
         <div className="col-12 col-md-4">
-          <h1>ABOUT ME</h1>
+          <h1 className="heading">ABOUT ME</h1>
           <div className="my-5">
             <img src="/images/watercolor-stripes-2.png" alt="profile" className="img-fluid" />
           </div>
