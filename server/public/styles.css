@@ -21,6 +21,7 @@ h1, h2, h3, h4, .nav-font {
   height: 100vh;
   background: url("/images/paint.jpg");
   background-size: cover;
+  position: relative;
 }
 
 .name {
@@ -136,5 +137,9 @@ h1, h2, h3, h4, .nav-font {
 @media (max-width: 767px) {
   .default-img, .borker-img {
     background-position: center;
+  }
+
+  .hero {
+    background-position: 50% 50%;
   }
 }
