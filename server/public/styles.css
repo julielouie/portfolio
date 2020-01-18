@@ -126,15 +126,6 @@ h1, h2, h3, h4, .nav-font {
   cursor: pointer;
 }
 
-@keyframes fade {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 @media (max-width: 767px) {
   .default-img, .borker-img {
     background-position: center;

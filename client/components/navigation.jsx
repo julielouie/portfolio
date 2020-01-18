@@ -39,7 +39,7 @@ class Navigation extends React.Component {
           <div className={`collapse navbar-collapse justify-content-end ${show} py-2`} id="defaultNav">
             <ul className="navbar-nav">
               <li className="nav-item nav-font">
-                <Link activeClass="active" to="about-me" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link px-3" onClick={this.toggleNav}>About Me</Link>
+                <Link activeClass="active" to="about-me" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link px-3" onClick={this.toggleNav}>About</Link>
               </li>
               <li className="nav-item nav-font">
                 <Link activeClass="active" to="projects" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-link px-3" onClick={this.toggleNav}>Projects</Link>
