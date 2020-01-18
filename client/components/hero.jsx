@@ -1,13 +1,14 @@
 import React from 'react';
+import TextLoop from 'react-text-loop';
 
 function Hero(props) {
+  const titleArray = ['Full Stack Developer', 'Creator', 'Artist', 'Inventor', 'Designer'];
   return (
     <div className="hero" id="home">
-      <div className="container col-md-8 h-100">
-        <div className="d-flex h-100">
-          <h1 className="hero-text align-self-center">
-            HERO TEXT HERE
-          </h1>
+      <div className="container col-md-8">
+        <div className="d-flex flex-column">
+          <h1 className="name mt-5">JULIE H. CHUNG</h1>
+          <h4 className="title"><TextLoop interval={2000} springConfig={{ stiffness: 180, damping: 8 }}>{titleArray}</TextLoop></h4>
         </div>
       </div>
     </div>

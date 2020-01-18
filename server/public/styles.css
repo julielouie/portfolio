@@ -14,11 +14,21 @@ h1, h2, h3, h4, .nav-font {
 }
 
 .navigation {
-  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.123);
 }
 
 .hero {
   height: 100vh;
+  background: url("/images/paint.jpg");
+  background-size: cover;
+}
+
+.name {
+  font-size: 5rem;
+}
+
+.title {
+  font-size: 3rem;
 }
 
 .link-icon {
@@ -112,6 +122,15 @@ h1, h2, h3, h4, .nav-font {
 
 .click {
   cursor: pointer;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 767px) {
