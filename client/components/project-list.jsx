@@ -53,7 +53,7 @@ class ProjectList extends React.Component {
   render() {
     const textColor = this.state.currentProject === 1 || this.state.currentProject === 2 ? 'text-white' : null;
     return (
-      <div className={`${this.state.projects[this.state.currentProject].class} d-flex`} id="projects">
+      <div className={`container-fluid ${this.state.projects[this.state.currentProject].class} d-flex`} id="projects">
         <div className="row py-5">
           <div className="col-10 col-md-5 pb-5 m-auto">
             <h1 className={`heading ${textColor}`}>PROJECTS</h1>
