@@ -54,17 +54,17 @@ class ProjectList extends React.Component {
   render() {
     let offsetNav = -76;
     if (window.innerWidth < 768) {
-      offsetNav = -290;
+      offsetNav = -54;
     }
     const textColor = this.state.currentProject === 1 || this.state.currentProject === 2 ? 'text-white' : null;
     return (
       <div className={`container-fluid ${this.state.projects[this.state.currentProject].class} d-flex`} id="projects">
         <div className="row py-5">
-          <div className="col-10 col-md-5 pb-5 m-auto">
+          <div className="col-10 col-md-6 pb-5 m-auto">
             <h1 className={`heading ${textColor}`}>PROJECTS</h1>
             <Project projects={this.state.projects} current={this.state.currentProject}/>
           </div>
-          <div className="col-10 col-md-5 d-flex flex-column m-auto">
+          <div className="col-10 col-md-6 d-flex flex-column m-auto">
             <div className="mb-5">
               <Link activeClass="active" to="projects" spy={true} smooth={true} duration={100} offset={offsetNav}>
                 <div className="click project project-1 card"
