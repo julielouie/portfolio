@@ -7,8 +7,8 @@ function Hero(props) {
     <div className="hero" id="home">
       <div className="container col-md-8">
         <div className="d-flex flex-column">
-          <h1 className="name mt-5">JULIE H. CHUNG</h1>
-          <h4 className="title mt-3 text-muted"><TextLoop interval={1700} springConfig={{ stiffness: 180, damping: 8 }}>{titleArray}</TextLoop></h4>
+          <h1 className="name col-12 mt-5">JULIE H. CHUNG</h1>
+          <h4 className="title col-12 mt-3 text-muted"><TextLoop className="col-12" interval={1700} springConfig={{ stiffness: 180, damping: 8 }} noWrap={false}>{titleArray}</TextLoop></h4>
         </div>
       </div>
     </div>
