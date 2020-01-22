@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import Project from './project';
 
 class ProjectList extends React.Component {
@@ -51,6 +52,10 @@ class ProjectList extends React.Component {
   }
 
   render() {
+    let offsetNav = -76;
+    if (window.innerWidth < 768) {
+      offsetNav = -290;
+    }
     const textColor = this.state.currentProject === 1 || this.state.currentProject === 2 ? 'text-white' : null;
     return (
       <div className={`container-fluid ${this.state.projects[this.state.currentProject].class} d-flex`} id="projects">
@@ -61,28 +66,34 @@ class ProjectList extends React.Component {
           </div>
           <div className="col-10 col-md-5 d-flex flex-column m-auto">
             <div className="mb-5">
-              <div className="click project project-1 card"
-                onClick={() => this.handleClick(1)}>
-                <div className="card-body">
-                  <h4 className="card-title text-center my-auto py-3">BORKER</h4>
+              <Link activeClass="active" to="projects" spy={true} smooth={true} duration={100} offset={offsetNav}>
+                <div className="click project project-1 card"
+                  onClick={() => this.handleClick(1)}>
+                  <div className="card-body">
+                    <h4 className="card-title text-center my-auto py-3">BORKER</h4>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className="mb-5">
-              <div className="click project project-2 card"
-                onClick={() => this.handleClick(2)}>
-                <div className="card-body">
-                  <h4 className="card-title text-center my-auto py-3">Spontaneous.ly</h4>
+              <Link activeClass="active" to="projects" spy={true} smooth={true} duration={100} offset={offsetNav}>
+                <div className="click project project-2 card"
+                  onClick={() => this.handleClick(2)}>
+                  <div className="card-body">
+                    <h4 className="card-title text-center my-auto py-3">Spontaneous.ly</h4>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
-            <div className="">
-              <div className="click project project-3 card"
-                onClick={() => this.handleClick(3)}>
-                <div className="card-body">
-                  <h4 className="card-title text-center my-auto py-3">Bobafy</h4>
+            <div>
+              <Link activeClass="active" to="projects" spy={true} smooth={true} duration={100} offset={offsetNav}>
+                <div className="click project project-3 card"
+                  onClick={() => this.handleClick(3)}>
+                  <div className="card-body">
+                    <h4 className="card-title text-center my-auto py-3">Bobafy</h4>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>
