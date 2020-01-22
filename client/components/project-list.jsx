@@ -52,21 +52,18 @@ class ProjectList extends React.Component {
   }
 
   render() {
-    let offsetNav = -76;
-    if (window.innerWidth < 768) {
-      offsetNav = -54;
-    }
+    const offset = -20;
     const textColor = this.state.currentProject === 1 || this.state.currentProject === 2 ? 'text-white' : null;
     return (
       <div className={`container-fluid ${this.state.projects[this.state.currentProject].class} d-flex`} id="projects">
-        <div className="row py-5">
-          <div className="col-10 col-md-6 pb-5 m-auto">
+        <div className="row w-75 m-auto py-5">
+          <div className="col-12 col-md-6 pb-5 m-auto">
             <h1 className={`heading ${textColor}`}>PROJECTS</h1>
             <Project projects={this.state.projects} current={this.state.currentProject}/>
           </div>
-          <div className="col-10 col-md-6 d-flex flex-column m-auto">
+          <div className="col-12 col-md-6 d-flex flex-column m-auto">
             <div className="mb-5">
-              <Link activeClass="active" to="projects" spy={true} smooth={true} duration={100} offset={offsetNav}>
+              <Link activeClass="active" to="projects" spy={true} smooth={true} duration={100} offset={offset}>
                 <div className="click project project-1 card"
                   onClick={() => this.handleClick(1)}>
                   <div className="card-body">
@@ -76,7 +73,7 @@ class ProjectList extends React.Component {
               </Link>
             </div>
             <div className="mb-5">
-              <Link activeClass="active" to="projects" spy={true} smooth={true} duration={100} offset={offsetNav}>
+              <Link activeClass="active" to="projects" spy={true} smooth={true} duration={100} offset={offset}>
                 <div className="click project project-2 card"
                   onClick={() => this.handleClick(2)}>
                   <div className="card-body">
@@ -86,7 +83,7 @@ class ProjectList extends React.Component {
               </Link>
             </div>
             <div>
-              <Link activeClass="active" to="projects" spy={true} smooth={true} duration={100} offset={offsetNav}>
+              <Link activeClass="active" to="projects" spy={true} smooth={true} duration={100} offset={offset}>
                 <div className="click project project-3 card"
                   onClick={() => this.handleClick(3)}>
                   <div className="card-body">
