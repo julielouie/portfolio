@@ -23,7 +23,7 @@ function Tools(props) {
             <h5 className="m-3">Webpack</h5>
           </div>
           <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
-            <i className="icon devicon-babel-plain colored"></i>
+            <i className="icon devicon-babel-plain"></i>
             <h5 className="m-3">Babel</h5>
           </div>
           <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
