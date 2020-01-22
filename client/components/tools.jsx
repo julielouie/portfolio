@@ -3,9 +3,9 @@ import React from 'react';
 function Tools(props) {
   return (
     <div className="tools d-flex flex-column justify-content-center py-5" id="tools">
-      <div className="mx-auto pt-5">
+      <div className="container mx-auto pt-5">
         <h1 className="heading col-12 text-center pb-2">TOOLS</h1>
-        <div className="d-flex flex-wrap pb-5">
+        <div className="row py-5">
           <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
             <i className="icon devicon-github-plain colored"></i>
             <h5 className="m-3">Github</h5>
@@ -23,7 +23,7 @@ function Tools(props) {
             <h5 className="m-3">Webpack</h5>
           </div>
           <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
-            <i className="icon devicon-babel-plain colored"></i>
+            <i className="icon devicon-babel-plain"></i>
             <h5 className="m-3">Babel</h5>
           </div>
           <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
