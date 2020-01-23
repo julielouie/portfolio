@@ -11,7 +11,7 @@ function Project(props) {
     <>
       <h3 className={`${textColor} mb-3 pt-3`}>{props.projects[props.current].title}</h3>
       <p className={`${textColor} my-3 py-2`}>{props.projects[props.current].description}</p>
-      <a className={`proj-link ${textColor} my-5 mr-3 ${borderColor} rounded p-2`} href={props.projects[props.current].gitLink} target="_blank" rel="noopener noreferrer">
+      <a className={`proj-link ${textColor} my-5 ${borderColor} rounded mr-2 p-2`} href={props.projects[props.current].gitLink} target="_blank" rel="noopener noreferrer">
         {props.projects[props.current].gitTitle}
         <i className="fab fa-github ml-2"></i>
       </a>
