@@ -4,7 +4,7 @@ function AboutMe(props) {
   return (
     <div className="container py-5" id="about-me">
       <div className="row my-5">
-        <div className="col-12 col-md-4">
+        <div className="col-12 col-lg-4">
           <h1 className="heading">ABOUT ME</h1>
           <div className="my-5">
             <img src="/images/watercolor-stripes.png" alt="profile" className="img-fluid" />
@@ -22,12 +22,12 @@ function AboutMe(props) {
             <a className="click link-icon m-auto text-dark" href="mailto:juliehchung96@gmail.com" aria-label="Email">
               <i className="fas fa-envelope"></i>
             </a>
-            <a className="click link-icon m-3 text-dark" href="/assets/Julie_Chung.pdf" target="_blank" rel="noopener noreferrer" aria-label="Resume" download>
+            <a className="click link-icon m-auto text-dark" href="/assets/Julie_Chung.pdf" target="_blank" rel="noopener noreferrer" aria-label="Resume" download>
               <i className="fas fa-file"></i>
             </a>
           </div>
         </div>
-        <div className="col-12 col-md-8">
+        <div className="col-12 col-lg-8">
           <p className="col-12">
             My name is Julie Chung, and I am a full stack developer with a passion and yearning to code, program, build, and learn more about new technologies and implementations.
             My previous work experiences have been very client-centric. Taking place in multiple, divergent environments, I was able to pick up a variety of practical intrapersonal, technical, and communicative skills.
