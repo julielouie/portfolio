@@ -6,7 +6,9 @@ function Contact(props) {
   return (
     <div className="contact d-flex" id="contact">
       <div className="container m-auto">
-        <h3 className="heading text-center py-4">JULIE H. CHUNG</h3>
+        <h3 className="heading text-center py-4">
+          <img className="contact-brand img-fluid" src="/images/full-stack-logo.png" alt="Julie Chung Full Stack Developer"/>
+        </h3>
         <div className="d-flex flex-wrap justify-content-center align-items-center pb-2">
           <div className="col-12 col-md-4 text-center px-4">
             <i className="fas fa-map-marker-alt m-2"></i>

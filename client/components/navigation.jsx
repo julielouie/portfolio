@@ -20,12 +20,14 @@ class Navigation extends React.Component {
     const show = this.state.isOpen ? 'show' : null;
     let offsetNav = -76;
     if (window.innerWidth < 768) {
-      offsetNav = -290;
+      offsetNav = -310;
     }
     return (
       <nav className="navigation navbar navbar-expand-md navbar-light bg-light sticky-top">
         <div className="container">
-          <Link to="home" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-font navbar-brand" onClick={scroll.scrollToTop}>JULIE H. CHUNG</Link>
+          <Link to="home" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-font navbar-brand" onClick={scroll.scrollToTop}>
+            <img className="logo img-fluid" src="/images/initials-logo.png" alt="Julie Chung" />
+          </Link>
           <button className="collapsed navbar-toggler"
             type="button"
             data-toggle="collapse"

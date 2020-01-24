@@ -52,7 +52,7 @@ class ProjectList extends React.Component {
   }
 
   render() {
-    const offset = -20;
+    const offset = -75;
     const textColor = this.state.currentProject === 1 || this.state.currentProject === 2 ? 'text-white' : null;
     return (
       <div className={`container-fluid ${this.state.projects[this.state.currentProject].class} d-flex`} id="projects">
