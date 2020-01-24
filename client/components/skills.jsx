@@ -32,11 +32,11 @@ function Skills(props) {
           </div>
           <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
             <i className="icon devicon-html5-plain colored"></i>
-            <h5 className="m-3">CSS3</h5>
+            <h5 className="m-3">HTML5</h5>
           </div>
           <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
             <i className="icon devicon-css3-plain colored"></i>
-            <h5 className="m-3">HTML5</h5>
+            <h5 className="m-3">CSS3</h5>
           </div>
         </div>
       </div>
