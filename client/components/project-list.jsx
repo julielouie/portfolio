@@ -29,7 +29,7 @@ class ProjectList extends React.Component {
           gitTitle: 'Github',
           gitLink: 'https://github.com/kevinakahoshi/spontaneous.ly',
           linkName: 'Live Site',
-          link: 'https://spontaneouslyapp.com/',
+          link: 'https://spontaneously.juliehchung.com/',
           class: 'spontaneously-img project-img'
         },
         {
