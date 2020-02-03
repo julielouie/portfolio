@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 class Navigation extends React.Component {
   constructor(props) {
@@ -25,7 +25,7 @@ class Navigation extends React.Component {
     return (
       <nav className="navigation navbar navbar-expand-md navbar-light bg-light sticky-top">
         <div className="container">
-          <Link to="home" spy={true} smooth={true} duration={100} offset={offsetNav} className="click nav-font navbar-brand" onClick={scroll.scrollToTop}>
+          <Link to="home" smooth={true} duration={100} offset={offsetNav} className="click nav-font navbar-brand" >
             <img className="logo img-fluid" src="/images/initials-logo.png" alt="Julie Chung" />
           </Link>
           <button className="collapsed navbar-toggler"
