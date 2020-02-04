@@ -29,7 +29,7 @@ function AboutMe(props) {
         </div>
         <div className="col-12 col-lg-8">
           <p className="col-12">
-            My name is Julie Chung, and I am a full stack developer with a passion and yearning to code, program, build, and learn more about new technologies and implementations.
+            My name is Julie Chung, and I am a Software Engineer with a passion and yearning to code, program, build, and learn more about new technologies and implementations.
           </p>
           <p className="col-12">
             As I continue to grow, I have developed a robust understanding of JavaScript (ES5 & ES6), React.js, jQuery, PHP, MySQL, HTML5, and CSS3. Additionally, I have also enjoyed working with Node.js and Express, and I have strong experience with tools such as Git/GitHub, Webpack, npm, and Bootstrap. Whether in team-based environments or solo, I have had the privilege of creating and contributing to multiple full-stack projects and applications.
