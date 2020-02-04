@@ -30,14 +30,13 @@ function AboutMe(props) {
         <div className="col-12 col-lg-8">
           <p className="col-12">
             My name is Julie Chung, and I am a full stack developer with a passion and yearning to code, program, build, and learn more about new technologies and implementations.
-            My previous work experiences have been very client-centric. Taking place in multiple, divergent environments, I was able to pick up a variety of practical intrapersonal, technical, and communicative skills.
+            My previous work experiences have been very client-centric. Taking place in multiple, divergent environments, I was able to pick up a variety of practical interpersonal, technical, and communicative skills.
           </p>
           <p className="col-12">
             From implementing ELAN behavioral coding software in a research laboratory, to drawing blood and taking radiographs of animals in a medical environment, I have had the privilege of learning how to mold myself into a multi-functional tool and asset.
           </p>
           <p className="col-12">
-            While continuing to grow in these paths, it became very evident to me that there are many careers which, while fulfilling and deep in their own respects, often &quot;cap out&quot; in knowledge at a certain point in time.
-            I began to search backwards for a career where I could always continue to learn and grow, and recalled a Java class that I took and enjoyed during university.
+            While continuing to grow in these paths, it became very evident to me that there are many careers which, while fulfilling and deep in their own respects, often &quot;cap out&quot; in knowledge at a certain point in time. I began to search backwards for a career where I could always continue to learn and grow, and recalled a Java class that I took and enjoyed during university.
             After researching heavily for several months, I resigned from my position as a Veterinary Assistant and enrolled in the LearningFuze Accelerated Web Development Program in Irvine, CA.
           </p>
           <p className="col-12">
@@ -45,8 +44,7 @@ function AboutMe(props) {
             As I continue to grow, I have developed a robust understanding of JavaScript, jQuery, and React. I have also enjoyed working with PHP and MySQL.
           </p>
           <p className="col-12">
-            My client-focused experience combined with the skills and knowledge I have acquired as a Developer would make me a great asset to your team.
-            It would be an amazing opportunity to be able to bring my enthusiasm and dedication for programming to your company.
+            My client-focused experience combined with the skills and knowledge I have acquired as a Developer would make me a great asset to your team. It would be an amazing opportunity to be able to bring my enthusiasm and dedication for programming to your company.
           </p>
         </div>
       </div>
