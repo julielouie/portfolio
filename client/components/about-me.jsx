@@ -5,7 +5,7 @@ function AboutMe(props) {
     <div className="container py-5" id="about-me">
       <div className="row my-5">
         <div className="col-12 col-lg-4">
-          <h1 className="heading">ABOUT ME</h1>
+          <h1 className="heading text-center">ABOUT ME</h1>
           <div className="my-5">
             <img src="/images/watercolor-stripes.png" alt="profile" className="img-fluid" />
           </div>
@@ -32,10 +32,10 @@ function AboutMe(props) {
             My name is Julie Chung, and I am a Software Engineer with a passion and yearning to code, program, build, and learn more about new technologies and implementations.
           </p>
           <p className="px-3">
-            I have a robust understanding of JavaScript (ES5 & ES6), React.js, jQuery, PHP, MySQL, HTML5, and CSS3. Additionally, I have also enjoyed working with Node.js and Express, and I have strong experience with tools such as Git/GitHub, Webpack, npm, and Bootstrap.
+            I have a robust understanding of JavaScript (ES5 & ES6), React.js, jQuery, PHP, MySQL, HTML5, and CSS3. Additionally, I also enjoy working with Node.js and Express, and I have strong experience with tools such as Git/GitHub, Webpack, npm, and Bootstrap.
           </p>
           <p className="px-3">
-            I have had the privilege of creating and contributing to multiple team-based and solo projects and applications, both full-stack and front-end focused.
+            With the privilege of creating and contributing to multiple team-based and solo applications, I am experienced in both full-stack and front-end focused work.
           </p>
           <p className="px-3">
             My client-focused experience combined with the skills and knowledge I have acquired while programming would make me a great asset to your team. It would be an amazing opportunity to be able to bring my enthusiasm and dedication for programming to your company.
