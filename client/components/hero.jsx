@@ -2,7 +2,7 @@ import React from 'react';
 import TextLoop from 'react-text-loop';
 
 function Hero(props) {
-  const titleArray = ['Developer', 'Creator', 'Artist', 'Adventurer', 'Designer', 'Innovator'];
+  const titleArray = ['Software Engineer', 'Creator', 'Artist', 'Adventurer', 'Designer', 'Innovator'];
   return (
     <div className="hero" id="home">
       <div className="container col-md-8">

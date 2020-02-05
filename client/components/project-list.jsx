@@ -8,7 +8,7 @@ class ProjectList extends React.Component {
     this.state = {
       projects: [
         {
-          title: 'Full Stack Developer',
+          title: 'Software Engineer',
           description: 'My greatest passion is to continue learning and growing as much as I can, for as long as I can. I love the idea of building and creating something, from nothing! The following are a few applications that I have had the pleasure of contributing to, and creating.',
           gitTitle: 'Github',
           gitLink: 'https://github.com/juliehchung',
