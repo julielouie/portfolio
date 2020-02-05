@@ -25,7 +25,7 @@ class ProjectList extends React.Component {
         },
         {
           title: 'Spontaneous.ly',
-          description: 'Full stack mobile web application built in 2.5 weeks, with a team of four. Created using using React.js, Bootstrap, PHP, and MySQL, Spontaneous.ly is designed for adventurous people that want to embark on a spontaneous activity.',
+          description: 'Full stack mobile web application built in 2.5 weeks, with a team of four. Created using React.js, Bootstrap, PHP, and MySQL, Spontaneous.ly is designed for adventurous people that want to embark on a spontaneous activity.',
           gitTitle: 'Github',
           gitLink: 'https://github.com/kevinakahoshi/spontaneous.ly',
           linkName: 'Live Site',
