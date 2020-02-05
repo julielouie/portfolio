@@ -32,7 +32,7 @@ function AboutMe(props) {
             My name is Julie Chung, and I am a Software Engineer with a passion and yearning to code, program, build, and learn more about new technologies and implementations.
           </p>
           <p className="px-3">
-            I have a robust understanding of JavaScript (ES5 & ES6), React.js, jQuery, PHP, MySQL, HTML5, and CSS3. Additionally, I also enjoy working with Node.js and Express, and I have strong experience with tools such as Git/GitHub, Webpack, npm, and Bootstrap.
+            I have a robust understanding of JavaScript (ES5 & ES6), React.js, jQuery, PHP, MySQL, HTML5, and CSS3. Additionally, I enjoy working with Node.js and Express, and I have strong experience with tools such as Git/GitHub, Webpack, npm, and Bootstrap.
           </p>
           <p className="px-3">
             With the privilege of creating and contributing to multiple team-based and solo applications, I am experienced in both full-stack and front-end focused work.
