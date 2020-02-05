@@ -12,7 +12,7 @@ function Contact(props) {
         <div className="d-flex flex-wrap justify-content-center align-items-center pb-2">
           <div className="col-12 col-md-4 text-center px-4">
             <i className="fas fa-map-marker-alt m-2"></i>
-            Orange County/Los Angeles, CA
+            Orange County, CA
           </div>
           <a className="click col-12 col-md-4 text-center px-4 text-dark" href="tel:9099578113">
             <i className="fas fa-phone-alt m-2"></i>
