@@ -28,16 +28,16 @@ function AboutMe(props) {
           </div>
         </div>
         <div className="col-12 col-lg-8 my-auto">
-          <p className="col-12">
+          <p className="px-3">
             My name is Julie Chung, and I am a Software Engineer with a passion and yearning to code, program, build, and learn more about new technologies and implementations.
           </p>
-          <p className="col-12">
-            As I continue to grow, I have developed a robust understanding of JavaScript (ES5 & ES6), React.js, jQuery, PHP, MySQL, HTML5, and CSS3. Additionally, I have also enjoyed working with Node.js and Express, and I have strong experience with tools such as Git/GitHub, Webpack, npm, and Bootstrap.
+          <p className="px-3">
+            I have a robust understanding of JavaScript (ES5 & ES6), React.js, jQuery, PHP, MySQL, HTML5, and CSS3. Additionally, I have also enjoyed working with Node.js and Express, and I have strong experience with tools such as Git/GitHub, Webpack, npm, and Bootstrap.
           </p>
-          <p className="col-12">
+          <p className="px-3">
             I have had the privilege of creating and contributing to multiple team-based and solo projects and applications, both full-stack and front-end focused.
           </p>
-          <p className="col-12">
+          <p className="px-3">
             My client-focused experience combined with the skills and knowledge I have acquired while programming would make me a great asset to your team. It would be an amazing opportunity to be able to bring my enthusiasm and dedication for programming to your company.
           </p>
         </div>
