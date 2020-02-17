@@ -7,7 +7,7 @@ function Contact(props) {
     <div className="contact d-flex" id="contact">
       <div className="container m-auto">
         <h3 className="heading text-center py-4">
-          <img className="contact-brand img-fluid" src="/images/logo.png" alt="Julie Chung Full Stack Developer"/>
+          <img className="contact-brand img-fluid" src="/images/software-engineer-logo.png" alt="Julie Chung Full Stack Developer"/>
         </h3>
         <div className="d-flex flex-wrap justify-content-center align-items-center pb-2">
           <div className="col-12 col-md-4 text-center px-4">
