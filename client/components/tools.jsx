@@ -8,7 +8,7 @@ function Tools(props) {
         <div className="row py-5">
           <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
             <i className="icon devicon-github-plain colored"></i>
-            <h5 className="m-3">Github</h5>
+            <h5 className="m-3">GitHub</h5>
           </div>
           <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
             <i className="icon devicon-visualstudio-plain colored"></i>
