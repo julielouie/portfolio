@@ -15,8 +15,20 @@ function Skills(props) {
             <h5 className="m-3">React.js</h5>
           </div>
           <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-nodejs-plain colored"></i>
+            <h5 className="m-3">Node.js</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-express-original colored"></i>
+            <h5 className="m-3">Express</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
             <i className="icon devicon-php-plain colored"></i>
             <h5 className="m-3">PHP</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-postgresql-plain colored"></i>
+            <h5 className="m-3">PostgreSQL</h5>
           </div>
           <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
             <i className="icon mysql devicons devicons-mysql"></i>
