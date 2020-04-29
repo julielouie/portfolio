@@ -22,7 +22,7 @@ function AboutMe(props) {
             <a className="click link-icon m-auto text-dark" href="mailto:juliehchung96@gmail.com" aria-label="Email">
               <i className="fas fa-envelope"></i>
             </a>
-            <a className="click link-icon m-auto text-dark" href="https://drive.google.com/file/d/1Aw5bWKZvNEc3JYw0lMljhzOdQ3K0rJUG/view?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Resume">
+            <a className="click link-icon m-auto text-dark" href="https://drive.google.com/file/d/1_xGl3MR8hWoh-ZMnezIvrB9tPNnxb_54/view?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Resume">
               <i className="fas fa-file"></i>
             </a>
           </div>
