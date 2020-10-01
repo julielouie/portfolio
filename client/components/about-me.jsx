@@ -22,7 +22,7 @@ function AboutMe(props) {
             <a className="click link-icon m-auto text-dark" href="mailto:juliehchung96@gmail.com" aria-label="Email">
               <i className="fas fa-envelope"></i>
             </a>
-            <a className="click link-icon m-auto text-dark" href="https://drive.google.com/file/d/1_xGl3MR8hWoh-ZMnezIvrB9tPNnxb_54/view?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Resume">
+            <a className="click link-icon m-auto text-dark" href="https://drive.google.com/file/d/1ix45jqcz2q1I8EhHII9RN2KeBrlSxv1D/view?usp=sharing" aria-label="Resume">
               <i className="fas fa-file"></i>
             </a>
           </div>
@@ -32,7 +32,7 @@ function AboutMe(props) {
             My name is Julie Chung, and I am a Software Engineer with a passion and yearning to code, program, build, and learn more about new technologies and implementations.
           </p>
           <p className="px-3">
-            I have a robust understanding of JavaScript (ES5 & ES6), React.js, jQuery, PHP, MySQL, HTML5, and CSS3. Additionally, I enjoy working with Node.js, Express and PostgreSQL, and I have strong experience with tools such as Git/GitHub, Webpack, npm, and Bootstrap.
+            I have a robust understanding of JavaScript (ES5 & ES6), React.js, jQuery, Aurelia, Angular, HTML5, and CSS3. Additionally, I enjoy working with Node.js, Express, PostgreSQL, PHP, MySQL, and I have strong experience with tools such as Git/GitHub, Webpack, npm, and Bootstrap. I also have experience with development in C# and ASP.NET Core.
           </p>
           <p className="px-3">
             With the privilege of creating and contributing to multiple team-based and solo applications, I am experienced in both full-stack and front-end focused work.

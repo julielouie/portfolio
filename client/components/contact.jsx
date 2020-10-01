@@ -30,7 +30,7 @@ function Contact(props) {
           <a className="click link-icon m-3 text-dark" href="https://www.linkedin.com/in/juliehchung/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <i className="fab fa-linkedin"></i>
           </a>
-          <a className="click link-icon m-3 text-dark" href="https://drive.google.com/file/d/1_xGl3MR8hWoh-ZMnezIvrB9tPNnxb_54/view?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Resume">
+          <a className="click link-icon m-3 text-dark" href="https://drive.google.com/file/d/1ix45jqcz2q1I8EhHII9RN2KeBrlSxv1D/view?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Resume">
             <i className="fas fa-file"></i>
           </a>
         </div>

@@ -23,6 +23,26 @@ function Skills(props) {
             <h5 className="m-3">Express</h5>
           </div>
           <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-typescript-plain colored"></i>
+            <h5 className="m-3">TypeScript</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <span className="icon iconify d-block m-auto" data-icon="logos-aurelia"></span>
+            <h5 className="m-3">Aurelia</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-angularjs-plain colored"></i>
+            <h5 className="m-3">Angular</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <i className="icon devicon-sass-original colored"></i>
+            <h5 className="m-3">SASS</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
+            <span className="icon iconify d-block m-auto" data-icon="logos:c-sharp" data-inline="false"></span>
+            <h5 className="m-3">C#</h5>
+          </div>
+          <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
             <i className="icon devicon-php-plain colored"></i>
             <h5 className="m-3">PHP</h5>
           </div>

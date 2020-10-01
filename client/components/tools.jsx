@@ -27,7 +27,7 @@ function Tools(props) {
             <h5 className="m-3">Babel</h5>
           </div>
           <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
-            <i className="icon fab fa-figma"></i>
+            <span className="icon iconify d-block m-auto" data-icon="logos-figma" data-inline="false"></span>
             <h5 className="m-3">Figma</h5>
           </div>
           <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
@@ -51,7 +51,7 @@ function Tools(props) {
             <h5 className="m-3">Adobe Photoshop</h5>
           </div>
           <div className="col-6 col-md-3 d-flex flex-column text-center p-4">
-            <i className="icon fab fa-slack"></i>
+            <span className="icon iconify d-block m-auto" data-icon="logos:slack-icon" data-inline="false"></span>
             <h5 className="m-3">Slack</h5>
           </div>
         </div>
