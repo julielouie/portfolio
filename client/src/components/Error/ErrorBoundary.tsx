@@ -1,7 +1,7 @@
 import { Component, ErrorInfo, ReactNode } from 'react';
-import { Typography, Grid, AccordionSummary, AccordionDetails, Accordion, Box } from '@mui/material';
+import { Typography, Grid2 as Grid, AccordionSummary, AccordionDetails, Accordion, Box } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import Icon from '../../assets/Kanban_Icon.png';
+import Icon from '../../../public/vite.svg';
 
 interface ErrorBoundaryProps {
   children: ReactNode;
@@ -35,10 +35,10 @@ class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
       return (
         <Grid container direction="column" alignItems="center" justifyContent="center" style={{ minHeight: '70vh' }}>
           <Grid container spacing={2} sx={{ p: 5 }}>
-            <Grid item xs={12} sx={{ display: 'flex', flexDirection: 'row', alignItems: 'end' }}>
+            <Grid size={{ xs: 12 }} sx={{ display: 'flex', flexDirection: 'row', alignItems: 'end' }}>
               <Box
                 component="div"
-                style={{
+                sx={{
                   backgroundImage: `url(${Icon})`,
                   backgroundRepeat: 'no-repeat',
                   backgroundSize: 'cover',
@@ -50,12 +50,12 @@ class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
                 Oops...
               </Typography>
             </Grid>
-            <Grid item xs={12} sx={{ display: 'flex', flexDirection: 'row' }}>
+            <Grid size={{ xs: 12 }} sx={{ display: 'flex', flexDirection: 'row' }}>
               <Typography variant="h4" sx={{ pr: 2 }}>
                 Something went wrong. Please let someone know!
               </Typography>
             </Grid>
-            <Grid item xs={12}>
+            <Grid size={{ xs: 12 }}>
               <Accordion>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                   <Typography>{error.toString()}</Typography>
