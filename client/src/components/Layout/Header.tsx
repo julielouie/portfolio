@@ -2,10 +2,11 @@ import { Dispatch, FC, SetStateAction } from 'react';
 import MuiAppBar from '@mui/material/AppBar';
 import { styled, useTheme } from '@mui/material/styles';
 import { headerHeight } from '../../constants/globals';
-import { Toolbar, PaletteMode, IconButton } from '@mui/material';
+import { Toolbar, PaletteMode, IconButton, Button, Grid, Typography, Box } from '@mui/material';
 import { DarkMode, LightMode } from '@mui/icons-material';
 import { UPDATE_THEME_MODE } from '../../constants/actions';
 import { useSession } from '../../contexts/SessionProvider';
+import { Link } from 'react-router-dom';
 
 const StyledHeader = styled(MuiAppBar, {
   shouldForwardProp: (prop) => prop !== 'open',
@@ -44,7 +45,36 @@ const Header: FC<HeaderProps> = (props) => {
   return (
     <StyledHeader position="fixed">
       <Toolbar sx={{ display: 'flex', alignItems: 'center', height: headerHeight, width: '100%' }}>
-        <IconButton onClick={toggleTheme}>{theme.palette.mode === 'light' ? <DarkMode /> : <LightMode />}</IconButton>
+        <Box sx={{ width: '100%', display: 'flex', alignItems: 'center' }}>
+          <Box>
+            <Typography>Logo</Typography>
+          </Box>
+          <Box sx={{ ml: 'auto' }}>
+            <Button>
+              <Link to="#intro" style={{ textDecoration: 'none', color: 'inherit' }}>
+                Intro
+              </Link>
+            </Button>
+            <Button>
+              <Link to="#about" style={{ textDecoration: 'none', color: 'inherit' }}>
+                About
+              </Link>
+            </Button>
+            <Button>
+              <Link to="#experience" style={{ textDecoration: 'none', color: 'inherit' }}>
+                Experience
+              </Link>
+            </Button>
+            <Button>
+              <Link to="#contact" style={{ textDecoration: 'none', color: 'inherit' }}>
+                Contact
+              </Link>
+            </Button>
+            <IconButton onClick={toggleTheme} sx={{ ml: 2 }}>
+              {theme.palette.mode === 'light' ? <DarkMode /> : <LightMode />}
+            </IconButton>
+          </Box>
+        </Box>
       </Toolbar>
     </StyledHeader>
   );

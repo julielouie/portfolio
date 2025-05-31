@@ -7,6 +7,7 @@ import { CssBaseline, PaletteMode, ThemeProvider } from '@mui/material';
 import darkTheme from '../theme/dark';
 import lightTheme from '../theme/light';
 import App from '../App';
+import ScrollToHash from '../components/ScrollToHash';
 
 const GlobalAppProvider: FC = () => {
   const {
@@ -27,6 +28,7 @@ const GlobalAppProvider: FC = () => {
       <SessionProvider>
         <LocalizationProvider dateAdapter={AdapterDayjs}>
           <ErrorBoundary>
+            <ScrollToHash behavior="smooth" />
             <App setTheme={setTheme} />
           </ErrorBoundary>
         </LocalizationProvider>

@@ -1,5 +1,5 @@
 import { Component, ErrorInfo, ReactNode } from 'react';
-import { Typography, Grid2 as Grid, AccordionSummary, AccordionDetails, Accordion, Box } from '@mui/material';
+import { Typography, Grid, AccordionSummary, AccordionDetails, Accordion, Box } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Icon from '../../../public/vite.svg';
 
@@ -50,12 +50,12 @@ class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
                 Oops...
               </Typography>
             </Grid>
-            <Grid size={{ xs: 12 }} sx={{ display: 'flex', flexDirection: 'row' }}>
+            <Grid size={12} sx={{ display: 'flex', flexDirection: 'row' }}>
               <Typography variant="h4" sx={{ pr: 2 }}>
                 Something went wrong. Please let someone know!
               </Typography>
             </Grid>
-            <Grid size={{ xs: 12 }}>
+            <Grid size={12}>
               <Accordion>
                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                   <Typography>{error.toString()}</Typography>
