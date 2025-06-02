@@ -4,6 +4,7 @@ import About from '../About';
 import Experience from '../Experience';
 import Contact from '../Contact';
 import Layout from '../Layout';
+import Intro from '../Intro';
 // import Projects from "./components/Projects";
 
 interface HomeProps {
@@ -15,6 +16,7 @@ const Home: FC<HomeProps> = (props) => {
 
   return (
     <Layout setTheme={setTheme}>
+      <Intro />
       <About />
       <Experience />
       <Contact />
