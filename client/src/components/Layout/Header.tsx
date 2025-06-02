@@ -16,7 +16,8 @@ const StyledHeader = styled(MuiAppBar, {
   padding: '16px',
   boxShadow: 'none',
   backgroundColor: theme.palette.background.paper,
-  backgroundImage: theme.palette.mode === 'dark' ? 'linear-gradient(rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.09))' : '',
+  backgroundImage: 'none',
+  borderBottom: theme.palette.mode === 'dark' ? `1px solid ${theme.palette.action.disabledBackground}` : 'none',
   color: theme.palette.text.primary,
   zIndex: theme.zIndex.drawer + 1,
   transition: theme.transitions.create(['width', 'margin'], {
