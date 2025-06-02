@@ -1,6 +1,5 @@
 import { PaletteMode } from '@mui/material';
 import { Dispatch, FC, SetStateAction } from 'react';
-import Intro from '../Intro';
 import About from '../About';
 import Experience from '../Experience';
 import Contact from '../Contact';
@@ -16,7 +15,6 @@ const Home: FC<HomeProps> = (props) => {
 
   return (
     <Layout setTheme={setTheme}>
-      <Intro />
       <About />
       <Experience />
       <Contact />

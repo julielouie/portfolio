@@ -1,8 +1,7 @@
 import { Dispatch, FC, SetStateAction } from 'react';
 import MuiAppBar from '@mui/material/AppBar';
 import { styled, useTheme } from '@mui/material/styles';
-import { headerHeight } from '../../constants/globals';
-import { Toolbar, PaletteMode, IconButton, Button, Grid, Typography, Box } from '@mui/material';
+import { PaletteMode, IconButton, Button, Typography, Box } from '@mui/material';
 import { DarkMode, LightMode } from '@mui/icons-material';
 import { UPDATE_THEME_MODE } from '../../constants/actions';
 import { useSession } from '../../contexts/SessionProvider';
@@ -11,7 +10,9 @@ import { Link } from 'react-router-dom';
 const StyledHeader = styled(MuiAppBar, {
   shouldForwardProp: (prop) => prop !== 'open',
 })(({ theme }) => ({
-  height: headerHeight,
+  display: 'block',
+  width: '100%',
+  padding: '16px',
   boxShadow: 'none',
   backgroundColor: theme.palette.background.paper,
   backgroundImage: theme.palette.mode === 'dark' ? 'linear-gradient(rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.09))' : '',
@@ -44,17 +45,12 @@ const Header: FC<HeaderProps> = (props) => {
 
   return (
     <StyledHeader position="fixed">
-      <Toolbar sx={{ display: 'flex', alignItems: 'center', height: headerHeight, width: '100%' }}>
-        <Box sx={{ width: '100%', display: 'flex', alignItems: 'center' }}>
+      <Box sx={{ maxWidth: '80rem', mx: 'auto' }}>
+        <Box sx={{ display: 'grid', alignItems: 'center', gridTemplateColumns: '80px 1fr', gap: '1rem' }}>
           <Box>
             <Typography>Logo</Typography>
           </Box>
-          <Box sx={{ ml: 'auto' }}>
-            <Button>
-              <Link to="#intro" style={{ textDecoration: 'none', color: 'inherit' }}>
-                Intro
-              </Link>
-            </Button>
+          <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}>
             <Button>
               <Link to="#about" style={{ textDecoration: 'none', color: 'inherit' }}>
                 About
@@ -75,7 +71,7 @@ const Header: FC<HeaderProps> = (props) => {
             </IconButton>
           </Box>
         </Box>
-      </Toolbar>
+      </Box>
     </StyledHeader>
   );
 };
