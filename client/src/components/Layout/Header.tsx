@@ -1,11 +1,11 @@
 import { Dispatch, FC, SetStateAction } from 'react';
 import MuiAppBar from '@mui/material/AppBar';
 import { styled, useTheme } from '@mui/material/styles';
-import { PaletteMode, IconButton, Button, Typography, Box } from '@mui/material';
-import { DarkMode, LightMode, Menu } from '@mui/icons-material';
+import { PaletteMode, IconButton, Button, Typography, Box, SpeedDial, SpeedDialAction, SpeedDialIcon } from '@mui/material';
+import { Close, ContactPage, DarkMode, Info, LightMode, Menu, Work } from '@mui/icons-material';
 import { UPDATE_THEME_MODE } from '../../constants/actions';
 import { useSession } from '../../contexts/SessionProvider';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import useWindowSize from '../../hooks/useWindowSize';
 
 const StyledHeader = styled(MuiAppBar, {
@@ -39,6 +39,8 @@ const Header: FC<HeaderProps> = (props) => {
 
   const size = useWindowSize();
 
+  const navigate = useNavigate();
+
   const toggleTheme = () => {
     const newTheme = theme.palette.mode === 'light' ? 'dark' : 'light';
     dispatch({ type: UPDATE_THEME_MODE, payload: newTheme });
@@ -47,18 +49,40 @@ const Header: FC<HeaderProps> = (props) => {
     if (htmlDoc) htmlDoc.style['color-scheme' as any] = newTheme;
   };
 
+  const goTo = (url: string) => {
+    navigate(url);
+  };
+
+  const actions = [
+    { icon: <Info />, name: 'ABOUT', action: () => goTo('#about') },
+    { icon: <Work />, name: 'EXPERIENCE', action: () => goTo('#experience') },
+    { icon: <ContactPage />, name: 'CONTACT', action: () => goTo('#contact') },
+    { icon: theme.palette.mode === 'light' ? <DarkMode /> : <LightMode />, name: 'MODE', action: toggleTheme },
+  ];
+
   return (
     <StyledHeader position="fixed">
       <Box sx={{ maxWidth: '80rem', mx: 'auto' }}>
-        <Box sx={{ display: 'grid', alignItems: 'center', gridTemplateColumns: '80px 1fr', gap: '1rem' }}>
+        <Box sx={{ display: 'grid', alignItems: 'center', gridTemplateColumns: '80px 1fr', gap: '1rem', minHeight: '2.5rem' }}>
           <Box>
-            <Typography>Logo</Typography>
+            <Link to="#intro" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <Typography>Logo</Typography>
+            </Link>
           </Box>
           <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}>
             {size.width < 640 ? (
-              <IconButton>
-                <Menu />
-              </IconButton>
+              <Box sx={{ position: 'relative' }}>
+                <SpeedDial
+                  ariaLabel="Header Speed Dial"
+                  sx={{ position: 'absolute', right: -5, top: -28 }}
+                  icon={<SpeedDialIcon icon={<Menu />} openIcon={<Close />} />}
+                  direction="down"
+                >
+                  {actions.map((action) => (
+                    <SpeedDialAction key={action.name} icon={action.icon} onClick={action.action} />
+                  ))}
+                </SpeedDial>
+              </Box>
             ) : (
               <>
                 <Button>
