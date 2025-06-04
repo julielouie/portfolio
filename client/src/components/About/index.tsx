@@ -1,10 +1,11 @@
 import { FC } from 'react';
+import { Grid } from '@mui/material';
 
 const About: FC = () => {
   return (
-    <h1 id="about" style={{ height: '100vh' }}>
+    <Grid id="about" sx={{ pt: 10, px: '1rem' }} container>
       About
-    </h1>
+    </Grid>
   );
 };
 

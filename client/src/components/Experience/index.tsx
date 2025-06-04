@@ -1,10 +1,11 @@
 import { FC } from 'react';
+import { Grid } from '@mui/material';
 
 const Experience: FC = () => {
   return (
-    <h1 id="experience" style={{ height: '100vh' }}>
+    <Grid id="experience" sx={{ pt: 10, px: '1rem' }} container>
       Experience
-    </h1>
+    </Grid>
   );
 };
 

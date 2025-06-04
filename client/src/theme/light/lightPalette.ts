@@ -39,9 +39,9 @@ const lightPalette = {
     contrastText,
   },
   info: {
-    main: '#661AE6',
-    light: '#b897f2',
-    dark: '#451a8f',
+    main: black,
+    light: '#333',
+    dark: black,
     contrastText,
   },
   success: {
