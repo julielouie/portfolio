@@ -13,7 +13,7 @@ const Layout: FC<LayoutProps> = (props) => {
   return (
     <Box sx={{ display: 'flex', height: '100%', width: '100%' }}>
       <Header setTheme={setTheme} />
-      <Box component="main" sx={{ p: '64px 25px 0px 25px', width: '100%' }}>
+      <Box component="main" sx={{ width: '100%' }}>
         {children}
       </Box>
     </Box>

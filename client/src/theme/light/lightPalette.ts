@@ -1,4 +1,5 @@
 const white = '#fff';
+const fadedWhite = 'rgba(255, 255, 255, 0.33)';
 const black = '#000';
 const contrastText = white;
 const grey100 = '#f5f5f5';
@@ -6,6 +7,7 @@ const grey200 = '#eeeeee';
 const grey400 = '#bdbdbd';
 const grey700 = '#616161';
 const disabledPaper = '#EBECEC';
+const terraCotta = '#a25833';
 
 const lightPalette = {
   common: {
@@ -13,9 +15,9 @@ const lightPalette = {
     white,
   },
   primary: {
-    main: '#00a2ed',
-    light: '#82838c',
-    dark: '#04618c',
+    main: terraCotta,
+    light: '#ac6b4b',
+    dark: '#82472a',
     contrastText,
   },
   secondary: {
@@ -49,7 +51,7 @@ const lightPalette = {
     contrastText,
   },
   grey: {
-    50: '#fafafa',
+    50: fadedWhite,
     100: grey100,
     200: grey200,
     300: '#e0e0e0',

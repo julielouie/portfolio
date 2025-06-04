@@ -4,6 +4,10 @@ import overrides from '../overrides';
 
 const lightTheme = createTheme({
   typography: {
+    fontFamily: 'Lato, Avenir, Helvetica, Arial, sans-serif',
+    fontWeightLight: 100,
+    fontWeightRegular: 400,
+    fontWeightMedium: 700,
     body1: {
       color: lightPalette.text.primary,
     },
