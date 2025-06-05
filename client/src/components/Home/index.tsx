@@ -7,11 +7,11 @@ import Layout from '../Layout';
 import Intro from '../Intro';
 // import Projects from "./components/Projects";
 
-interface HomeProps {
+interface IHomeProps {
   setTheme: Dispatch<SetStateAction<PaletteMode>>;
 }
 
-const Home: FC<HomeProps> = (props) => {
+const Home: FC<IHomeProps> = (props) => {
   const { setTheme } = props;
 
   return (

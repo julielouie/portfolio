@@ -1,13 +1,13 @@
 import { useLayoutEffect, useState, useEffect, useRef } from 'react';
 
-interface ScrollToHashProps {
+interface IScrollToHashProps {
   initialBehavior?: ScrollBehavior;
   behavior?: ScrollBehavior;
   inline?: ScrollLogicalPosition;
   block?: ScrollLogicalPosition;
 }
 
-const ScrollToHash = ({ behavior = 'auto', initialBehavior = 'auto', inline = 'nearest', block = 'start' }: ScrollToHashProps): null => {
+const ScrollToHash = ({ behavior = 'auto', initialBehavior = 'auto', inline = 'nearest', block = 'start' }: IScrollToHashProps): null => {
   const [hash, setHash] = useState(window.location.hash);
   const [count, setCount] = useState(0);
   // eslint-disable-next-line @typescript-eslint/no-unsafe-function-type

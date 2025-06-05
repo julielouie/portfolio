@@ -3,18 +3,18 @@ import { Typography, Grid, AccordionSummary, AccordionDetails, Accordion, Box } 
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Icon from '../../../public/vite.svg';
 
-interface ErrorBoundaryProps {
+interface IErrorBoundaryProps {
   children: ReactNode;
 }
 
-interface ErrorBoundaryState {
+interface IErrorBoundaryState {
   hasError: boolean;
   error: any;
   info: any;
 }
 
-class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
-  constructor(props: ErrorBoundaryProps) {
+class ErrorBoundary extends Component<IErrorBoundaryProps, IErrorBoundaryState> {
+  constructor(props: IErrorBoundaryProps) {
     super(props);
     this.state = { hasError: false, error: null, info: null };
   }

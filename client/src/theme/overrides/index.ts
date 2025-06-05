@@ -1,5 +1,5 @@
-import MuiCard from './MuiCard';
+import MuiAccordion from './MuiAccordion';
 
-const overrides = { MuiCard };
+const overrides = { MuiAccordion };
 
 export default overrides;

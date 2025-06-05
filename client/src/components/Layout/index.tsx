@@ -2,12 +2,12 @@ import { Dispatch, FC, ReactNode, SetStateAction } from 'react';
 import { Box, PaletteMode } from '@mui/material';
 import Header from './Header';
 
-interface LayoutProps {
+interface ILayoutProps {
   setTheme: Dispatch<SetStateAction<PaletteMode>>;
   children: ReactNode;
 }
 
-const Layout: FC<LayoutProps> = (props) => {
+const Layout: FC<ILayoutProps> = (props) => {
   const { setTheme, children } = props;
 
   return (

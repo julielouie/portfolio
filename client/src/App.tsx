@@ -3,11 +3,11 @@ import { PaletteMode } from '@mui/material';
 import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 
-interface AppProps {
+interface IAppProps {
   setTheme: Dispatch<SetStateAction<PaletteMode>>;
 }
 
-const App: FC<AppProps> = (props) => {
+const App: FC<IAppProps> = (props) => {
   const { setTheme } = props;
 
   return (

@@ -36,7 +36,7 @@ const StyledHeader = styled(MuiAppBar, {
   boxShadow: 'none',
   backgroundColor: theme.palette.mode === 'light' ? theme.palette.grey[50] : theme.palette.background.paper, // update dark color in palette when decided
   backdropFilter: 'blur(5px)',
-  '-webkit-backdrop-filter': 'blur(5px)',
+  WebkitBackdropFilter: 'blur(5px)',
   '--tw-backdrop-blur': 'blur(5px)',
   backgroundImage: 'none',
   borderBottom: theme.palette.mode === 'dark' ? `1px solid ${theme.palette.action.disabledBackground}` : 'none',
@@ -48,11 +48,11 @@ const StyledHeader = styled(MuiAppBar, {
   }),
 }));
 
-interface HeaderProps {
+interface IHeaderProps {
   setTheme: Dispatch<SetStateAction<PaletteMode>>;
 }
 
-const Header: FC<HeaderProps> = () =>
+const Header: FC<IHeaderProps> = () =>
   // props
   {
     // const { setTheme } = props;

@@ -19,9 +19,8 @@ const About: FC = () => {
           </Grid>
           <Grid>
             <Typography variant="h6" fontWeight={400}>
-              I'm a software engineer who loves building sleek, user-friendly apps with React, TypeScript, Node.js, and just the right
-              amount of ✨SaaS✨ (haha). I specialize in the frontend and move fast, write clean code, and live for those “this just works”
-              chef's kiss moments.
+              I'm a software engineer who loves building sleek, user-friendly apps with React, TypeScript, Node.js. I specialize in the
+              frontend and move fast, write clean code, and live for those “this just works” chef's kiss moments.
             </Typography>
           </Grid>
           <Grid>
