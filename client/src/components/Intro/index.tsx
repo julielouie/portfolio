@@ -1,10 +1,14 @@
 import { FC } from 'react';
 import { Button, Grid, Typography, useTheme } from '@mui/material';
-import TextureOverlay from '../../assets/transparent_adobe_texture_soft.png';
+import TextureOverlay from '../../assets/transparent_adobe_texture_pothos.png';
 import { Link } from 'react-router-dom';
+import FlowerRow from '../FlowerRow';
+import useWindowSize from '../../hooks/useWindowSize';
 
 const Intro: FC = () => {
   const theme = useTheme();
+
+  const size = useWindowSize();
 
   return (
     <Grid
@@ -30,6 +34,7 @@ const Intro: FC = () => {
           <Typography variant="h1" fontWeight={400}>
             Julie Louie
           </Typography>
+          <FlowerRow text="Julie Louie" animationDuration={0} size={size.width < 640 ? '21' : '41'} />
         </Grid>
         <Grid>
           <Typography variant="h3" fontWeight={400}>
@@ -44,7 +49,7 @@ const Intro: FC = () => {
         <Grid>
           <Button variant="contained">
             <Link to="#experience" style={{ textDecoration: 'none', color: 'inherit' }}>
-              See Works
+              See Experience
             </Link>
           </Button>
         </Grid>

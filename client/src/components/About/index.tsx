@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import { Grid, Typography } from '@mui/material';
+import FlowerRow from '../FlowerRow';
 
 const About: FC = () => {
   return (
@@ -11,6 +12,7 @@ const About: FC = () => {
             <Typography variant="h3" fontWeight={400}>
               About Me
             </Typography>
+            <FlowerRow text="About Me" animationDuration={0} size="27" />
           </Grid>
           <Grid>
             <Typography variant="h4" fontWeight={400}>

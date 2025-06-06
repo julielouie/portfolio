@@ -37,7 +37,6 @@ const StyledHeader = styled(MuiAppBar, {
   backgroundColor: theme.palette.mode === 'light' ? theme.palette.grey[50] : theme.palette.background.paper, // update dark color in palette when decided
   backdropFilter: 'blur(5px)',
   WebkitBackdropFilter: 'blur(5px)',
-  '--tw-backdrop-blur': 'blur(5px)',
   backgroundImage: 'none',
   borderBottom: theme.palette.mode === 'dark' ? `1px solid ${theme.palette.action.disabledBackground}` : 'none',
   color: theme.palette.text.primary,

@@ -19,8 +19,15 @@ const WorkAccordion: FC<IWorkAccordionProps> = (props) => {
     >
       <AccordionSummary expandIcon={<ExpandMore />}>
         <Grid container flexDirection="column">
-          <Grid>
-            <Typography variant="h5">{work.company}</Typography>
+          <Grid container flexDirection="row" alignItems="center">
+            <Typography variant="h5" sx={{ mr: 2 }}>
+              {work.company}
+            </Typography>
+            {work.dateEnd[0] === 'Present' && (
+              <Grid>
+                <Box className="blinking" />
+              </Grid>
+            )}
           </Grid>
           {expanded === work.company && work.titles.length > 2 ? (
             ''

@@ -2,6 +2,7 @@ import { FC, SyntheticEvent, useState } from 'react';
 import { IWork } from '../../types/Work';
 import { Box, Grid, Typography, useTheme } from '@mui/material';
 import WorkAccordion from './WorkAccordion';
+import FlowerRow from '../FlowerRow';
 
 const Experience: FC = () => {
   const [expanded, setExpanded] = useState<string | false>('');
@@ -57,7 +58,7 @@ const Experience: FC = () => {
   ];
 
   return (
-    <Grid id="experience" sx={{ pt: 10, px: '1rem', minHeight: '80vh' }} container>
+    <Grid id="experience" sx={{ pt: 10, px: '1rem', minHeight: '50vh' }} container>
       <Grid
         container
         flexDirection="column"
@@ -67,8 +68,9 @@ const Experience: FC = () => {
       >
         <Grid>
           <Typography variant="h3" fontWeight={400}>
-            Works
+            Experience
           </Typography>
+          <FlowerRow text="Experience" animationDuration={0} size="24" />
         </Grid>
         <Grid sx={{ border: `2px solid ${theme.palette.primary.main}`, borderRadius: '5px' }}>
           {works.length
