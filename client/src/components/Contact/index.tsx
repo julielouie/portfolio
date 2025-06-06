@@ -9,7 +9,7 @@ const Contact: FC = () => {
     <Grid
       id="contact"
       sx={{
-        minHeight: '50vh',
+        minHeight: '30vh',
         pt: 5,
         px: '1rem',
         backgroundImage: theme.palette.mode === 'light' ? `url(${TextureOverlay})` : 'none', // update for dark theme when texture decided

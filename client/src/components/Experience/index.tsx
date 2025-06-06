@@ -57,7 +57,7 @@ const Experience: FC = () => {
   ];
 
   return (
-    <Grid id="experience" sx={{ pt: 10, px: '1rem' }} container>
+    <Grid id="experience" sx={{ pt: 10, px: '1rem', minHeight: '80vh' }} container>
       <Grid
         container
         flexDirection="column"

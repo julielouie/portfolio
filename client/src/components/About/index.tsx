@@ -5,8 +5,8 @@ const About: FC = () => {
   return (
     <Grid id="about" sx={{ pt: 10, px: '1rem' }} container>
       <Grid container sx={{ mx: 'auto', maxWidth: '80rem', width: '100%', py: '5rem' }}>
-        <Grid size={6} />
-        <Grid container flexDirection="column" justifyContent="center" spacing={2} size={6}>
+        <Grid size={{ xs: 12, md: 6 }} />
+        <Grid container flexDirection="column" justifyContent="center" spacing={2} size={{ xs: 12, md: 6 }}>
           <Grid>
             <Typography variant="h3" fontWeight={400}>
               About Me
