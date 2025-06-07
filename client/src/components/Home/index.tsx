@@ -5,6 +5,7 @@ import Experience from '../Experience';
 import Contact from '../Contact';
 import Layout from '../Layout';
 import Intro from '../Intro';
+import ScrollTopButton from '../ScrollToTop';
 // import Projects from "./components/Projects";
 
 interface IHomeProps {
@@ -20,6 +21,7 @@ const Home: FC<IHomeProps> = (props) => {
       <About />
       <Experience />
       <Contact />
+      <ScrollTopButton />
     </Layout>
   );
 };
