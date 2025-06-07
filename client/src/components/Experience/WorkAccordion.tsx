@@ -2,6 +2,7 @@ import { FC, SyntheticEvent } from 'react';
 import { IWork } from '../../types/Work';
 import { Accordion, AccordionDetails, AccordionSummary, Box, Grid, Typography } from '@mui/material';
 import { ExpandMore } from '@mui/icons-material';
+import FlowerRow from '../FlowerRow';
 
 interface IWorkAccordionProps {
   work: IWork;
@@ -73,7 +74,7 @@ const WorkAccordion: FC<IWorkAccordionProps> = (props) => {
                     key={`${work.company}-${work.titles[positionIndex]}-${descriptionIndex}`}
                   >
                     <Typography variant="body1" sx={{ pl: description[0] === ' ' ? 2 : 0 }}>
-                      •
+                      <FlowerRow text="p" animationDuration={0} size="24" />
                     </Typography>
                     <Typography sx={{ pl: 2 }} variant="body1">
                       {description.trim()}

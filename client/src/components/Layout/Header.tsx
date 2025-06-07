@@ -32,7 +32,6 @@ const StyledHeader = styled(MuiAppBar, {
 })(({ theme }) => ({
   display: 'block',
   width: '100%',
-  padding: '16px',
   boxShadow: 'none',
   backgroundColor: theme.palette.mode === 'light' ? theme.palette.grey[50] : theme.palette.background.paper, // update dark color in palette when decided
   backdropFilter: 'blur(5px)',
@@ -89,7 +88,7 @@ const Header: FC<IHeaderProps> = () =>
           <Box sx={{ display: 'grid', alignItems: 'center', gridTemplateColumns: '80px 1fr', gap: '1rem', minHeight: '2.5rem' }}>
             <Box>
               <Link to="#intro" style={{ textDecoration: 'none', color: 'inherit' }}>
-                <Typography>Logo</Typography>
+                <Typography sx={{ fontFamily: 'Parisienne', color: 'inherit', fontSize: '3rem' }}>JuLou</Typography>
               </Link>
             </Box>
             <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}>

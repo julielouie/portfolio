@@ -19,7 +19,6 @@ const Intro: FC = () => {
         px: '1rem',
         backgroundImage: theme.palette.mode === 'light' ? `url(${TextureOverlay})` : 'none', // update for dark theme when texture decided
         backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center center',
       }}
       container
     >

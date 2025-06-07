@@ -63,7 +63,7 @@ const Experience: FC = () => {
         container
         flexDirection="column"
         justifyContent="center"
-        sx={{ mx: 'auto', maxWidth: '80rem', width: '100%', py: '5rem' }}
+        sx={{ mx: 'auto', maxWidth: '80rem', width: '100%', py: '5rem', mb: 5 }}
         spacing={2}
       >
         <Grid>
