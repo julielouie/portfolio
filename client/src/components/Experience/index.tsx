@@ -3,6 +3,33 @@ import { IWork } from '../../types/Work';
 import { Box, Grid, Typography, useTheme } from '@mui/material';
 import WorkAccordion from './WorkAccordion';
 import FlowerRow from '../FlowerRow';
+import {
+  AngularIcon,
+  AureliaIcon,
+  AwsIcon,
+  AxiosIcon,
+  BootstrapIcon,
+  CppIcon,
+  CssIcon,
+  DockerIcon,
+  ExpressIcon,
+  FigmaIcon,
+  HtmlIcon,
+  JestIcon,
+  JqueryIcon,
+  JsIcon,
+  MuiIcon,
+  NedbIcon,
+  NetIcon,
+  NextIcon,
+  NodeIcon,
+  ReactIcon,
+  RtlIcon,
+  SwrIcon,
+  TsIcon,
+  TwilioIcon,
+  ZodIcon,
+} from './TechnologiesIcons';
 
 const Experience: FC = () => {
   const [expanded, setExpanded] = useState<string | false>('');
@@ -39,7 +66,84 @@ const Experience: FC = () => {
           'Increased code readability and ease of management by introducing TypeScript and MaterialUI best practices',
         ],
       ],
-      technologies: [],
+      technologies: [
+        {
+          icon: CssIcon,
+          label: 'CSS',
+        },
+        {
+          icon: JsIcon,
+          label: 'JavaScript',
+        },
+        {
+          icon: ReactIcon,
+          label: 'React',
+        },
+        {
+          icon: TsIcon,
+          label: 'TypeScript',
+        },
+        {
+          icon: MuiIcon,
+          label: 'MaterialUI',
+        },
+        {
+          icon: BootstrapIcon,
+          label: 'Bootstrap',
+        },
+        {
+          icon: FigmaIcon,
+          label: 'Figma',
+        },
+        {
+          icon: NodeIcon,
+          label: 'Node.js',
+        },
+        {
+          icon: ExpressIcon,
+          label: 'Express',
+        },
+        {
+          icon: NextIcon,
+          label: 'Next.js',
+        },
+        {
+          icon: NedbIcon,
+          label: 'NeDB',
+        },
+        {
+          icon: AxiosIcon,
+          label: 'Axios',
+        },
+        {
+          icon: ZodIcon,
+          label: 'Zod',
+        },
+        {
+          icon: SwrIcon,
+          label: 'SWR',
+        },
+        {
+          icon: RtlIcon,
+          label: 'React Testing Library',
+        },
+        {
+          icon: JestIcon,
+          label: 'Jest',
+        },
+        {
+          icon: HtmlIcon,
+          label: 'HTML',
+        },
+        {
+          icon: DockerIcon,
+          label: 'Docker',
+        },
+        {
+          icon: AwsIcon,
+          label: 'AWS',
+        },
+      ],
     },
     {
       company: 'Baytech Consulting',
@@ -53,7 +157,64 @@ const Experience: FC = () => {
           'Designed and constructed wireframes using Figma for existing UI overhauls and new product architecture',
         ],
       ],
-      technologies: [],
+      technologies: [
+        {
+          icon: CssIcon,
+          label: 'CSS',
+        },
+        {
+          icon: JsIcon,
+          label: 'JavaScript',
+        },
+        {
+          icon: ReactIcon,
+          label: 'React',
+        },
+        {
+          icon: AureliaIcon,
+          label: 'Aurelia',
+        },
+        {
+          icon: AngularIcon,
+          label: 'Angular',
+        },
+        {
+          icon: TsIcon,
+          label: 'TypeScript',
+        },
+        {
+          icon: BootstrapIcon,
+          label: 'Bootstrap',
+        },
+        {
+          icon: JqueryIcon,
+          label: 'jQuery',
+        },
+        {
+          icon: CppIcon,
+          label: 'C++',
+        },
+        {
+          icon: NetIcon,
+          label: '.NET',
+        },
+        {
+          icon: FigmaIcon,
+          label: 'Figma',
+        },
+        {
+          icon: TwilioIcon,
+          label: 'Twilio API',
+        },
+        {
+          icon: JestIcon,
+          label: 'Jest',
+        },
+        {
+          icon: HtmlIcon,
+          label: 'HTML',
+        },
+      ],
     },
   ];
 

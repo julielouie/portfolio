@@ -25,7 +25,7 @@ const About: FC = () => {
                   <path d="M 0 200 A 200 200 0 0 1 400 200 L 400 500 L 0 500 Z" />
                 </clipPath>
               </defs>
-              <image href={PepperImg} width="400" height="500" preserveAspectRatio="xMidYMid slice" clip-path="url(#arch-clip)" />
+              <image href={PepperImg} width="400" height="500" preserveAspectRatio="xMidYMid slice" clipPath="url(#arch-clip)" />
             </svg>
           </Grid>
         </Grid>
