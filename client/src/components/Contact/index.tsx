@@ -26,9 +26,15 @@ const Contact: FC = () => {
         alignItems="start"
         justifyContent="space-between"
         spacing={5}
-        sx={{ mx: 'auto', maxWidth: '80rem', width: '100%', pt: '5rem' }}
+        className="contact-text"
+        sx={{
+          mx: 'auto',
+          maxWidth: '80rem',
+          width: '100%',
+          pt: '5rem',
+        }}
       >
-        <Grid container flexDirection="column" spacing={1}>
+        <Grid container flexDirection="column" spacing={1} className="contact-text" sx={{ pb: 2 }}>
           <Grid>
             <Typography variant="h5" sx={{ color: 'inherit' }}>
               Made by Jules.
@@ -36,16 +42,16 @@ const Contact: FC = () => {
           </Grid>
           <Grid>
             <Typography variant="h6" sx={{ color: 'inherit', fontWeight: 300 }}>
-              Please feel free to contact or message me, for more information.
+              Please feel free to contact or message me.
             </Typography>
           </Grid>
           <Grid>
             <Typography variant="h6" sx={{ color: 'inherit', fontWeight: 300 }}>
-              I'm always looking for new opportunities and to connect!
+              I'm always looking to connect!
             </Typography>
           </Grid>
         </Grid>
-        <Grid container flexDirection="column">
+        <Grid container flexDirection="column" alignItems="center" spacing={0}>
           <Grid>
             <Typography sx={{ fontFamily: 'Parisienne', color: 'inherit', px: 2 }} variant="h1">
               JuLou
@@ -249,7 +255,7 @@ const Contact: FC = () => {
           </Grid>
         </Grid>
       </Grid>
-      <Grid sx={{ mx: 'auto', maxWidth: '80rem', width: '100%', py: '3rem', mt: '3rem', textAlign: 'center' }}>
+      <Grid sx={{ mx: 'auto', maxWidth: '80rem', width: '100%', py: '3rem', mt: '2rem', textAlign: 'center' }}>
         <Typography variant="h6" sx={{ color: 'inherit' }}>
           © {new Date().getFullYear()} by Julie Louie
         </Typography>

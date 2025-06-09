@@ -43,19 +43,19 @@ const About: FC = () => {
           </Grid>
           <Grid>
             <Typography variant="h6" fontWeight={400}>
-              I'm a software engineer and animal lover who loves building sleek, user-friendly apps with React, TypeScript, Node.js. I
-              specialize in the frontend and move fast, write clean code, and live for those “this just works” chef's kiss moments.
+              I'm a software engineer and animal lover who loves building sleek, user-friendly apps with React, TypeScript, Node.js, and
+              Figma. I specialize in the frontend and move fast, write clean code, and live for those “this just works” chef's kiss moments.
             </Typography>
           </Grid>
           <Grid>
             <Typography variant="h6" fontWeight={400}>
-              When I’m not coding, I’m painting tiny pokéballs on nails, hunting for my next food adventure, or losing track of time in a
-              cozy game (Witcher 3 counts as cozy, right?)
+              When I’m not coding, I’m training my pup, painting tiny pokéballs on nails, hunting for my next food adventure, or losing
+              track of time in a cozy game (Dragon Age counts as cozy, right?)
             </Typography>
           </Grid>
           <Grid>
             <Typography variant="h6" fontWeight={400}>
-              I’m all about good vibes, great design, and snuggling my pup 💕
+              I’m all about good vibes, great design, and snuggling my dog 💕
             </Typography>
           </Grid>
         </Grid>

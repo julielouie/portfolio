@@ -88,7 +88,7 @@ const Header: FC<IHeaderProps> = () =>
           <Box sx={{ display: 'grid', alignItems: 'center', gridTemplateColumns: '80px 1fr', gap: '1rem', minHeight: '2.5rem' }}>
             <Box>
               <Link to="#intro" style={{ textDecoration: 'none', color: 'inherit' }}>
-                <Typography sx={{ fontFamily: 'Parisienne', color: 'inherit', fontSize: '3rem' }}>JuLou</Typography>
+                <Typography sx={{ fontFamily: 'Parisienne', color: 'inherit', fontSize: '3rem', px: 2 }}>JuLou</Typography>
               </Link>
             </Box>
             <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}>
@@ -96,7 +96,7 @@ const Header: FC<IHeaderProps> = () =>
                 <Box sx={{ position: 'relative' }}>
                   <SpeedDial
                     ariaLabel="Header Speed Dial"
-                    sx={{ position: 'absolute', right: -5, top: -28 }}
+                    sx={{ position: 'absolute', right: 5, top: -28 }}
                     icon={<SpeedDialIcon icon={<Menu />} openIcon={<Close />} />}
                     direction="down"
                   >

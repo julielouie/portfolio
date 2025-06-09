@@ -42,7 +42,7 @@ const Intro: FC = () => {
         </Grid>
         <Grid>
           <Typography variant="h6" fontWeight={400}>
-            I turn dreams into scalable code and seamless user experiences.
+            I bring ideas to life with scalable code and seamless UX.
           </Typography>
         </Grid>
         <Grid>

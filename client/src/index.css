@@ -61,3 +61,11 @@ html {
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 913px) {
+  .contact-text {
+    text-align: center;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
