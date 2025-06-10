@@ -1,50 +1,47 @@
-# React + TypeScript + Vite
+# Welcome!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My portfolio is built to showcase my current professional experience, and give you a taste of my working frontend skills.
 
-Currently, two official plugins are available:
+## Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Vite
+- TypeScript
+- MaterialUI
 
-## Expanding the ESLint configuration
+## Development
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### System Requirements
 
-- Configure the top-level `parserOptions` property like this:
+- NPM v9.6.6 or higher
+- Node v20.2.0 or higher
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
+### Getting Started
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. Clone and enter the repository.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react';
+   ```shell
+   git clone https://github.com/julielouie/portfolio.git
+   cd portfolio
+   ```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-});
-```
+2. Install all dependencies with NPM at the root of the project.
+
+   ```shell
+   npm install
+   ```
+
+3. Install all dependencies with NPM in the `client` directory of the project.
+
+   ```shell
+   cd client
+   npm install
+   ```
+
+4. Start the project in the `client` directory.
+
+   ```shell
+   npm run dev
+   ```
+
+5. Once started, you can view the application by opening http://localhost:5173 in your browser.
