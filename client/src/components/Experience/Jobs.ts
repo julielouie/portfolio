@@ -5,7 +5,7 @@ import {
   AwsIcon,
   AxiosIcon,
   BootstrapIcon,
-  CppIcon,
+  CsharpIcon,
   CssIcon,
   DockerIcon,
   ExpressIcon,
@@ -180,8 +180,8 @@ export const jobs: IWork[] = [
         label: 'jQuery',
       },
       {
-        icon: CppIcon,
-        label: 'C++',
+        icon: CsharpIcon,
+        label: 'C#',
       },
       {
         icon: NetIcon,
