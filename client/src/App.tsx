@@ -12,7 +12,7 @@ const App: FC<IAppProps> = (props) => {
 
   return (
     <Routes>
-      <Route path="/" element={<Home setTheme={setTheme} />} />
+      <Route path="/*" element={<Home setTheme={setTheme} />} />
     </Routes>
   );
 };

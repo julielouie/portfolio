@@ -39,11 +39,10 @@ const WorkAccordion: FC<IWorkAccordionProps> = (props) => {
             ) : (
               <Grid container flexDirection="row">
                 <Grid>
-                  <Typography variant="body1">{work.titles[0]}</Typography>
+                  <Typography variant="body1" sx={{ pr: 1 }}>{`${work.titles[0]}:`}</Typography>
                 </Grid>
                 <Grid>
                   <Typography variant="body1">
-                    ,{' '}
                     {work.titles.length > 1
                       ? `${work.dateStart[work.dateStart.length - 1]} - ${work.dateEnd[0]}`
                       : `${work.dateStart[0]} - ${work.dateEnd[0]}`}
@@ -79,7 +78,7 @@ const WorkAccordion: FC<IWorkAccordionProps> = (props) => {
                 {position.length > 1 &&
                   position.map((description, descriptionIndex) => (
                     <Box
-                      sx={{ display: 'flex', flexDirection: 'row' }}
+                      sx={{ display: 'flex', flexDirection: 'row', pt: 2 }}
                       key={`${work.company}-${work.titles[positionIndex]}-${descriptionIndex}`}
                     >
                       <Box sx={{ pl: description[0] === ' ' ? 2 : 0 }}>

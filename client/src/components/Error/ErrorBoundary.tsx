@@ -1,7 +1,8 @@
 import { Component, ErrorInfo, ReactNode } from 'react';
-import { Typography, Grid, AccordionSummary, AccordionDetails, Accordion, Box } from '@mui/material';
+import { Typography, Grid, AccordionSummary, AccordionDetails, Accordion, Box, Button } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import Icon from '../../../public/vite.svg';
+import Icon from '../../../public/logo.png';
+import { Link } from 'react-router-dom';
 
 interface IErrorBoundaryProps {
   children: ReactNode;
@@ -33,40 +34,49 @@ class ErrorBoundary extends Component<IErrorBoundaryProps, IErrorBoundaryState> 
 
     if (hasError) {
       return (
-        <Grid container direction="column" alignItems="center" justifyContent="center" style={{ minHeight: '70vh' }}>
-          <Grid container spacing={2} sx={{ p: 5 }}>
-            <Grid size={{ xs: 12 }} sx={{ display: 'flex', flexDirection: 'row', alignItems: 'end' }}>
-              <Box
-                component="div"
-                sx={{
-                  backgroundImage: `url(${Icon})`,
-                  backgroundRepeat: 'no-repeat',
-                  backgroundSize: 'cover',
-                  height: '200px',
-                  width: '200px',
-                }}
-              />
-              <Typography variant="h1" sx={{ pl: 2 }}>
-                Oops...
-              </Typography>
+        <Box sx={{ display: 'flex', height: '100%', width: '100%' }}>
+          <Box component="main" sx={{ width: '100%' }}>
+            <Grid container flexDirection="column" alignItems="center" justifyContent="center" sx={{ minHeight: '100vh', px: '1rem' }}>
+              <Grid container spacing={3} flexDirection="column" sx={{ mx: 'auto', maxWidth: '80rem', width: '100%', py: '5rem', mb: 5 }}>
+                <Grid
+                  component="div"
+                  sx={{
+                    backgroundImage: `url(${Icon})`,
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: 'cover',
+                    height: '201px',
+                    width: '205px',
+                  }}
+                />
+                <Grid>
+                  <Typography variant="h1" sx={{ fontWeight: 500 }}>
+                    Oops!
+                  </Typography>
+                </Grid>
+                <Grid>
+                  <Typography variant="h4">Something went wrong. Please let Julie know!</Typography>
+                </Grid>
+                <Grid sx={{ border: '2px solid orange', borderRadius: '5px' }}>
+                  <Accordion>
+                    <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                      <Typography>{error.toString()}</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                      <Typography variant="body1">{info.componentStack}</Typography>
+                    </AccordionDetails>
+                  </Accordion>
+                </Grid>
+                <Grid>
+                  <Link to="/">
+                    <Button color="primary" variant="contained">
+                      Home
+                    </Button>
+                  </Link>
+                </Grid>
+              </Grid>
             </Grid>
-            <Grid size={12} sx={{ display: 'flex', flexDirection: 'row' }}>
-              <Typography variant="h4" sx={{ pr: 2 }}>
-                Something went wrong. Please let someone know!
-              </Typography>
-            </Grid>
-            <Grid size={12}>
-              <Accordion>
-                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                  <Typography>{error.toString()}</Typography>
-                </AccordionSummary>
-                <AccordionDetails>
-                  <Typography variant="body1">{info.componentStack}</Typography>
-                </AccordionDetails>
-              </Accordion>
-            </Grid>
-          </Grid>
-        </Grid>
+          </Box>
+        </Box>
       );
     }
 
