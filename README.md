@@ -2,6 +2,8 @@
 
 My portfolio is built to showcase my current professional experience, and give you a taste of my working frontend skills.
 
+Currently deployed on GCR: https://julielouie.com
+
 ## Technologies
 
 - React
